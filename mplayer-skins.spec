@@ -36,6 +36,8 @@ Windows Media Player, Avfile, Xine and many other.
 Dodtatkowe skórki dl MPlayera. W pakiecie znajudj± siê skórki udaj±ce
 wygl±d Widows Media Player, Avifile, Xine i wiele innych.
 
+%prep
+
 %install
 rm -rf $RPM_BUILD_ROOT
 
