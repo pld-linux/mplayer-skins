@@ -5,8 +5,6 @@ Version:	0.60
 Release:	1
 License:	distributable
 Group:		X11/Applications/Multimedia
-Group(de):	X11/Applikationen/Multimedia
-Group(pl):	X11/Aplikacje/Multimedia
 Source0:	ftp://mplayerhq.hu/MPlayer/Skin/BlueHeart.tar.bz2
 Source1:	ftp://mplayerhq.hu/MPlayer/Skin/Cyrus.tar.bz2
 Source2:	ftp://mplayerhq.hu/MPlayer/Skin/MidnightLove.tar.bz2
