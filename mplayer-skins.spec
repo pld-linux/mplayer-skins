@@ -61,6 +61,7 @@ URL:		http://www.mplayerhq.hu/
 Requires:	mplayer
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
+Obsoletes:	mplayer-skin
 
 %define		_skindir	%{_prefix}/share/mplayer/Skin
 
@@ -76,6 +77,9 @@ wygl±d Widows Media Player, Avifile, Xine i wiele innych.
 Summary:	BlueHeart skin
 Summary(pl):	Skórka BlueHeart
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-BlueHeart
 BlueHeart skin.
@@ -87,6 +91,9 @@ Skórka BlueHeart.
 Summary:	Cyrus skin
 Summary(pl):	Skórka Cyrus
 Group:		X11/Applications/Multimedia
+Requires:	mplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Cyrus
 Cyrus skin.
@@ -98,6 +105,9 @@ Skórka Cyrus.
 Summary:	MidnightLove skin
 Summary(pl):	Skórka MidnightLove
 Group:		X11/Applications/Multimedia
+Requires:	mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-MidnightLove
 MidnightLove skin.
@@ -109,7 +119,10 @@ Skórka MidnightLove.
 Summary:	WMP6 skin
 Summary(pl):	Skórka WMP6
 Group:		X11/Applications/Multimedia
-Obsoletes:	mplayer-skin-WindowsMediaPlayer6
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skin-WindowsMediaPlayer6
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-WMP6
 WMP6 skin.
@@ -121,6 +134,9 @@ Skórka WMP6.
 Summary:	avifile skin
 Summary(pl):	Skórka avifile
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-avifile
 avifile skin.
@@ -132,6 +148,9 @@ Skórka avifile.
 Summary:	phony skin
 Summary(pl):	Skórka phony
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-phony
 phony skin.
@@ -143,6 +162,9 @@ Skórka phony.
 Summary:	plastic skin
 Summary(pl):	Skórka plastic
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-plastic
 plastic skin.
@@ -154,6 +176,9 @@ Skórka plastic.
 Summary:	proton skin
 Summary(pl):	Skórka proton
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-proton
 proton skin.
@@ -165,6 +190,9 @@ Skórka proton.
 Summary:	xanim skin
 Summary(pl):	Skórka xanim
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-xanim
 xanim skin.
@@ -176,6 +204,9 @@ Skórka xanim.
 Summary:	xine-lcd skin
 Summary(pl):	Skórka xine-lcd
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-xine-lcd
 xine-lcd skin.
@@ -187,6 +218,9 @@ Skórka xine-lcd.
 Summary:	mentalic skin
 Summary(pl):	Skórka mentalic
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-mentalic
 mentalic skin.
@@ -198,6 +232,9 @@ Skórka mentalic.
 Summary:	AlienMind skin
 Summary(pl):	Skórka AlienMind
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-AlienMind
 AlienMind skin.
@@ -209,6 +246,9 @@ Skórka AlienMind.
 Summary:	hwswskin skin
 Summary(pl):	Skórka hwswskin
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-hwswskin
 hwswskin skin.
@@ -220,6 +260,9 @@ Skórka hwswskin.
 Summary:	XFce4 skin
 Summary(pl):	Skórka XFce4
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-XFce4
 XFce4 skin.
@@ -231,6 +274,9 @@ Skórka XFce4.
 Summary:	OSX-Brushed skin
 Summary(pl):	Skórka OSX-Brushed
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-OSX-Brushed
 OSX-Brushed skin.
@@ -242,6 +288,9 @@ Skórka OSX-Brushed.
 Summary:	CornerMP skin
 Summary(pl):	Skórka CornerMP
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-CornerMP
 CornerMP skin.
@@ -253,6 +302,9 @@ Skórka CornerMP.
 Summary:	CornerMP-aqua skin
 Summary(pl):	Skórka CornerMP-aqua
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-CornerMP-aqua
 CornerMP-aqua skin.
@@ -264,6 +316,9 @@ Skórka CornerMP-aqua.
 Summary:	Plastik skin
 Summary(pl):	Skórka Plastik
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-Plastik
 Plastik skin.
@@ -275,6 +330,9 @@ Skórka Plastik.
 Summary:	new-age skin
 Summary(pl):	Skórka new-age
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-new-age
 new-age skin.
@@ -286,6 +344,9 @@ Skórka new-age.
 Summary:	Terminator3 skin
 Summary(pl):	Skórka Terminator3
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-Terminator3
 Terminator3 skin.
@@ -297,6 +358,9 @@ Skórka Terminator3.
 Summary:	OSX-Mod skin
 Summary(pl):	Skórka OSX-Mod
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-OSX-Mod
 OSX-Mod skin.
@@ -308,6 +372,9 @@ Skórka OSX-Mod.
 Summary:	Industrial skin
 Summary(pl):	Skórka Industrial
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-Industrial
 Industrial skin.
@@ -319,6 +386,9 @@ Skórka Industrial.
 Summary:	DVDPlayer skin
 Summary(pl):	Skórka DVDPlayer
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-DVDPlayer
 DVDPlayer skin.
@@ -330,6 +400,9 @@ Skórka DVDPlayer.
 Summary:	Blue skin
 Summary(pl):	Skórka Blue
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-Blue
 Blue skin (new default MPlayer skin).
@@ -341,6 +414,9 @@ Skórka Blue (obecnie domylna skórka MPlayera).
 Summary:	ultrafina skin
 Summary(pl):	Skórka ultrafina
 Group:		X11/Applications/Multimedia
+Requires:       mplayer
+Provides:       mplayer-skin
+Obsoletes:      mplayer-skins
 
 %description -n mplayer-skin-ultrafina
 ultrafina skin (based on the XMMS ultrafina skin).
