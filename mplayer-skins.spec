@@ -43,7 +43,6 @@ Source17:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/CornerMP-aqua-1.4.tar.bz2
 # Source17-md5:	f040b8d9e343e74fe32e985f17042091
 Source18:       http://download.freshmeat.net/themes/plastikmplayer/plastikmplayer-default.tar.gz
 # Source18-md5:	2a168d8663ad6f017647ea88258fc978
-
 URL:		http://www.mplayerhq.hu/
 Requires:	mplayer
 BuildArch:	noarch
@@ -74,8 +73,8 @@ Skórka BlueHeart.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_skindir}
+
 bzip2 -dc %{SOURCE0} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE1} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE2} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
@@ -101,7 +100,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files -n mplayer-skin-BlueHeart
 %defattr(644,root,root,755)
-%{_skindir}/BlueHeart/*
+%{_skindir}/BlueHeart
 
 %files
 %defattr(644,root,root,755)
