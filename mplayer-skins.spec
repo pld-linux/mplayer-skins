@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.60
-Release:	1
+Release:	2
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://mplayerhq.hu/MPlayer/Skin/BlueHeart.tar.bz2
@@ -57,8 +57,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%dir %{_skindir}
-%dir %{_skindir}/*
-%{_skindir}/*/*.png
-%{_skindir}/*/*.fnt
-%{_skindir}/*/skin
+%{_skindir}/*
