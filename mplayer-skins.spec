@@ -2,33 +2,33 @@ Summary:	MPlayer - skins
 Summary(pl):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.60
-Release:	3
+Release:	4
 License:	distributable
 Group:		X11/Applications/Multimedia
-Source0:	ftp://mplayerhq.hu/MPlayer/Skin/BlueHeart-1.4.tar.bz2
-# Source0-md5: c38e378f24b9f0e041c98305fbef4a5d
-Source1:	ftp://mplayerhq.hu/MPlayer/Skin/Cyrus-1.0.tar.bz2
-# Source1-md5: b4381b4bf77f89ef3d31e2a354af3ddc
-Source2:	ftp://mplayerhq.hu/MPlayer/Skin/MidnightLove-1.5.tar.bz2
-# Source2-md5: 8e7614b366d25622197997344149747c
-Source3:	ftp://mplayerhq.hu/MPlayer/Skin/WindowsMediaPlayer6-1.2.tar.bz2
-# Source3-md5: 6717e3f57e9c808777ce8cfc370d194e
-Source4:	ftp://mplayerhq.hu/MPlayer/Skin/avifile-1.5.tar.bz2
-# Source4-md5: a18d2282e5945243862fa765146c1b32
-Source5:	ftp://mplayerhq.hu/MPlayer/Skin/neutron-1.4.tar.bz2
-# Source5-md5: 6fcf7cee80805b8da1486337dbd81ef8
-Source6:	ftp://mplayerhq.hu/MPlayer/Skin/phony-1.0.tar.bz2
-# Source6-md5: c4e53b339b9ea986e2e9c5a2cf899584
-Source7:	ftp://mplayerhq.hu/MPlayer/Skin/plastic-1.1.1.tar.bz2
-# Source7-md5: e3fa0a19324631e4437dd992af17189c
-Source8:	ftp://mplayerhq.hu/MPlayer/Skin/proton-1.1.tar.bz2
-# Source8-md5: c59a504312e3b0eb363276a29ce715fe
-Source9:	ftp://mplayerhq.hu/MPlayer/Skin/xanim-1.5.tar.bz2
-# Source9-md5: 11c50f9eb970f08b4955bed6e3159d39
-Source10:	ftp://mplayerhq.hu/MPlayer/Skin/xine-lcd-1.0.tar.bz2
-# Source10-md5: 9e8a8ba86e46e714d1ef2e19d9a7e0cf
-Source11:	ftp://mplayerhq.hu/MPlayer/Skin/mentalic-1.1.tar.bz2
-# Source11-md5:	4eadeb691b25970116c8bfee42f856ec
+Source0:	ftp://mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
+# Source0-md5:	d968298e7e596a6097f42941aecc7508
+Source1:	ftp://mplayerhq.hu/MPlayer/Skin/Cyrus-1.2.tar.bz2
+# Source1-md5:	33c9f70b1a609b90b786e88ba4e71bdc
+Source2:	ftp://mplayerhq.hu/MPlayer/Skin/MidnightLove-1.6.tar.bz2
+# Source2-md5:	45ef90da3cd0d11f6620e98cd5a9be9d
+Source3:	ftp://mplayerhq.hu/MPlayer/Skin/WindowsMediaPlayer6-2.0.tar.bz2
+# Source3-md5:	17792c2feebb615d4ffd3c175d362c5a
+Source4:	ftp://mplayerhq.hu/MPlayer/Skin/avifile-1.6.tar.bz2
+# Source4-md5:	8461daefbcf31ca64446c39d16b3851f
+Source5:	ftp://mplayerhq.hu/MPlayer/Skin/neutron-1.5.tar.bz2
+# Source5-md5:	faccbe3a5812ab4207d209e3c4101f2d
+Source6:	ftp://mplayerhq.hu/MPlayer/Skin/phony-1.1.tar.bz2
+# Source6-md5:	e4d3bc7c82c822afe725b2f27a350d01
+Source7:	ftp://mplayerhq.hu/MPlayer/Skin/plastic-1.2.tar.bz2
+# Source7-md5:	92a8c17fd85216ad382858babc9b508b
+Source8:	ftp://mplayerhq.hu/MPlayer/Skin/proton-1.2.tar.bz2
+# Source8-md5:	54bc0241be0579792e439317d6fe853e
+Source9:	ftp://mplayerhq.hu/MPlayer/Skin/xanim-1.6.tar.bz2
+# Source9-md5:	7523c0bdf6f59d26316e6cb5da4d3fb2
+Source10:	ftp://mplayerhq.hu/MPlayer/Skin/xine-lcd-1.2.tar.bz2
+# Source10-md5:	8cd553b5650c82f99f554e1bb15df1e7
+Source11:	ftp://mplayerhq.hu/MPlayer/Skin/mentalic-1.2.tar.bz2
+# Source11-md5:	608ee25f7f2b3715542ceca65409fbdd
 
 URL:		http://www.mplayerhq.hu/
 Requires:	mplayer
