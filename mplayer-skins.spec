@@ -23,7 +23,6 @@ Requires:	mplayer
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 %define		_skindir	%{_prefix}/share/mplayer/Skin
 
 %description
