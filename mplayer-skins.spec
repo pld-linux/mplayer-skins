@@ -355,6 +355,10 @@ bzip2 -dc %{SOURCE23} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 %clean
 rm -rf $RPM_BUILD_ROOT
 
+%files
+%defattr(644,root,root,755)
+%{_skindir}/*
+
 %files -n mplayer-skin-BlueHeart
 %defattr(644,root,root,755)
 %{_skindir}/BlueHeart
@@ -446,7 +450,3 @@ rm -rf $RPM_BUILD_ROOT
 %files -n mplayer-skin-DVDPlayer
 %defattr(644,root,root,755)
 %{_skindir}/DVDPlayer
-
-%files
-%defattr(644,root,root,755)
-%{_skindir}/*
