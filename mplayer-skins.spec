@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.60
-Release:	9
+Release:	10
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
@@ -11,20 +11,20 @@ Source1:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Cyrus-1.2.tar.bz2
 # Source1-md5:	cf7d8c02137a97c95bc0fcbd082e035f
 Source2:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/MidnightLove-1.6.tar.bz2
 # Source2-md5:	5a77607e070565f0de1c697497f39815
-Source3:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/WindowsMediaPlayer6-2.0.tar.bz2
-# Source3-md5:	17792c2feebb615d4ffd3c175d362c5a
+Source3:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/WMP6-2.2.tar.bz2
+# Source3-md5:	918f41ca67bc0f4b0feaa731df474dd1
 Source4:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/avifile-1.6.tar.bz2
-# Source4-md5:	8461daefbcf31ca64446c39d16b3851f
+# Source4-md5:	894f73fbc5766f932e06bf2e34df93c8
 Source5:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/neutron-1.5.tar.bz2
-# Source5-md5:	8a58b45c54b96de539bbc433a94434b4
+# Source5-md5:	744d0dd830492c9f20784051a67e60b9
 Source6:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/phony-1.1.tar.bz2
-# Source6-md5:	50ad8b60117d006a3cae611d32759499
+# Source6-md5:	6ade2fe4bf74a9397f4f1bbaf322a680
 Source7:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/plastic-1.2.tar.bz2
-# Source7-md5:	92a8c17fd85216ad382858babc9b508b
+# Source7-md5:	a339795e0a0d8267764c4dda310ded00
 Source8:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/proton-1.2.tar.bz2
-# Source8-md5:	54bc0241be0579792e439317d6fe853e
+# Source8-md5:	5dd0d26e38667bfc9a9a9dfdcdef221e
 Source9:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/xanim-1.6.tar.bz2
-# Source9-md5:	7523c0bdf6f59d26316e6cb5da4d3fb2
+# Source9-md5:	4c469e9bdc73e71a4bf9452a83eefe24
 Source10:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/xine-lcd-1.2.tar.bz2
 # Source10-md5:	a4eedc937f4549ad79238595bea0ed79
 Source11:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/mentalic-1.2.tar.bz2
@@ -105,16 +105,17 @@ MidnightLove skin.
 %description -n mplayer-skin-MidnightLove -l pl
 Skórka MidnightLove.
 
-%package -n mplayer-skin-WindowsMediaPlayer6
-Summary:	WindowsMediaPlayer6 skin
-Summary(pl):	Skórka WindowsMediaPlayer6
+%package -n mplayer-skin-WMP6
+Summary:	WMP6 skin
+Summary(pl):	Skórka WMP6
 Group:		X11/Applications/Multimedia
+Obsoletes:	mplayer-skin-WindowsMediaPlayer6
 
-%description -n mplayer-skin-WindowsMediaPlayer6
-WindowsMediaPlayer6 skin.
+%description -n mplayer-skin-WMP6
+WMP6 skin.
 
-%description -n mplayer-skin-WindowsMediaPlayer6 -l pl
-Skórka WindowsMediaPlayer6.
+%description -n mplayer-skin-WMP6 -l pl
+Skórka WMP6.
 
 %package -n mplayer-skin-avifile
 Summary:	avifile skin
@@ -399,9 +400,9 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %{_skindir}/MidnightLove
 
-%files -n mplayer-skin-WindowsMediaPlayer6
+%files -n mplayer-skin-WMP6
 %defattr(644,root,root,755)
-%{_skindir}/WindowsMediaPlayer6
+%{_skindir}/WMP6
 
 %files -n mplayer-skin-avifile
 %defattr(644,root,root,755)
