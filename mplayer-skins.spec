@@ -21,7 +21,7 @@ Source10:	ftp://mplayerhq.hu/MPlayer/Skin/xine-lcd.tar.bz2
 URL:		http://www.mplayerhq.hu/
 Requires:	mplayer
 BuildArch:	noarch
-BuildRoot:	%{tmpdir}/default-root-%(id -u -n)
+BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_prefix		/usr/X11R6
 %define		_skindir	%{_prefix}/share/mplayer/Skin
