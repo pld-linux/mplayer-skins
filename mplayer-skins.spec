@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.60
-Release:	5
+Release:	6
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
@@ -41,6 +41,8 @@ Source16:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/CornerMP-1.2.tar.bz2
 # Source16-md5:	54d777362ef7a0e16f22e0542d52108f
 Source17:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/CornerMP-aqua-1.4.tar.bz2
 # Source17-md5:	f040b8d9e343e74fe32e985f17042091
+Source18:       http://download.freshmeat.net/themes/plastikmplayer/plastikmplayer-default.tar.gz
+# Source18-md5:	2a168d8663ad6f017647ea88258fc978
 
 URL:		http://www.mplayerhq.hu/
 Requires:	mplayer
@@ -81,6 +83,7 @@ bzip2 -dc %{SOURCE14} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE15} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE16} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE17} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+gzip -dc %{SOURCE18} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
