@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.60
-Release:	11
+Release:	12
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
@@ -59,9 +59,10 @@ Source25:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/ultrafina-1.1.tar.bz2
 # Source25-md5:	403d61ff2d2cddbfd76f5d0269725b7f
 URL:		http://www.mplayerhq.hu/
 Requires:	mplayer
+Obsoletes:	mplayer-skin-WindowsMediaPlayer6
+Obsoletes:	mplayer-skin
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-Obsoletes:	mplayer-skin
 
 %define		_skindir	%{_prefix}/share/mplayer/Skin
 
