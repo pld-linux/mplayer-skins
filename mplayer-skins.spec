@@ -61,11 +61,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_skindir	%{_prefix}/share/mplayer/Skin
 
 %description
-Addotional skins for MPlayer. Included are skins emulating look of
-Windows Media Player, Avfile, Xine and many other.
+Additional skins for MPlayer. Included are skins emulating look of
+Windows Media Player, Avfile, Xine and many others.
 
 %description -l pl
-Dodtatkowe skórki dla MPlayera. W pakiecie znajudj± siê skórki udaj±ce
+Dodatkowe skórki dla MPlayera. W pakiecie znajduj± siê skórki udaj±ce
 wygl±d Widows Media Player, Avifile, Xine i wiele innych.
 
 %package -n mplayer-skin-BlueHeart
