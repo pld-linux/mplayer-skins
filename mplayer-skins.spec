@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.60
-Release:	6
+Release:	7
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
@@ -69,6 +69,193 @@ BlueHeart skin.
 %description -n mplayer-skin-BlueHeart -l pl
 Skórka BlueHeart.
 
+%package -n mplayer-skin-Cyrus
+Summary:	Cyrus skin
+Summary(pl):	Skórka Cyrus
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-Cyrus
+Cyrus skin.
+
+%description -n mplayer-skin-Cyrus -l pl
+Skórka Cyrus.
+
+%package -n mplayer-skin-MidnightLove
+Summary:	MidnightLove skin
+Summary(pl):	Skórka MidnightLove
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-MidnightLove
+MidnightLove skin.
+
+%description -n mplayer-skin-MidnightLove -l pl
+Skórka MidnightLove.
+
+%package -n mplayer-skin-WindowsMediaPlayer6
+Summary:	WindowsMediaPlayer6 skin
+Summary(pl):	Skórka WindowsMediaPlayer6
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-WindowsMediaPlayer6
+WindowsMediaPlayer6 skin.
+
+%description -n mplayer-skin-WindowsMediaPlayer6 -l pl
+Skórka WindowsMediaPlayer6.
+
+%package -n mplayer-skin-avifile
+Summary:	avifile skin
+Summary(pl):	Skórka avifile
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-avifile
+avifile skin.
+
+%description -n mplayer-skin-avifile -l pl
+Skórka avifile.
+
+%package -n mplayer-skin-phony
+Summary:	phony skin
+Summary(pl):	Skórka phony
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-phony
+phony skin.
+
+%description -n mplayer-skin-phony -l pl
+Skórka phony.
+
+%package -n mplayer-skin-plastic
+Summary:	plastic skin
+Summary(pl):	Skórka plastic
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-plastic
+plastic skin.
+
+%description -n mplayer-skin-plastic -l pl
+Skórka plastic.
+
+%package -n mplayer-skin-proton
+Summary:	proton skin
+Summary(pl):	Skórka proton
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-proton
+proton skin.
+
+%description -n mplayer-skin-proton -l pl
+Skórka proton.
+
+%package -n mplayer-skin-xanim
+Summary:	xanim skin
+Summary(pl):	Skórka xanim
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-xanim
+xanim skin.
+
+%description -n mplayer-skin-xanim -l pl
+Skórka xanim.
+
+%package -n mplayer-skin-xine-lcd
+Summary:	xine-lcd skin
+Summary(pl):	Skórka xine-lcd
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-xine-lcd
+xine-lcd skin.
+
+%description -n mplayer-skin-xine-lcd -l pl
+Skórka xine-lcd.
+
+%package -n mplayer-skin-mentalic
+Summary:	mentalic skin
+Summary(pl):	Skórka mentalic
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-mentalic
+mentalic skin.
+
+%description -n mplayer-skin-mentalic -l pl
+Skórka mentalic.
+
+%package -n mplayer-skin-AlienMind
+Summary:	AlienMind skin
+Summary(pl):	Skórka AlienMind
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-AlienMind
+AlienMind skin.
+
+%description -n mplayer-skin-AlienMind -l pl
+Skórka AlienMind.
+
+%package -n mplayer-skin-hwswskin
+Summary:	hwswskin skin
+Summary(pl):	Skórka hwswskin
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-hwswskin
+hwswskin skin.
+
+%description -n mplayer-skin-hwswskin -l pl
+Skórka hwswskin.
+
+%package -n mplayer-skin-XFce4
+Summary:	XFce4 skin
+Summary(pl):	Skórka XFce4
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-XFce4
+XFce4 skin.
+
+%description -n mplayer-skin-XFce4 -l pl
+Skórka XFce4.
+
+%package -n mplayer-skin-OSX-Brushed
+Summary:	OSX-Brushed skin
+Summary(pl):	Skórka OSX-Brushed
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-OSX-Brushed
+OSX-Brushed skin.
+
+%description -n mplayer-skin-OSX-Brushed -l pl
+Skórka OSX-Brushed.
+
+%package -n mplayer-skin-CornerMP
+Summary:	CornerMP skin
+Summary(pl):	Skórka CornerMP
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-CornerMP
+CornerMP skin.
+
+%description -n mplayer-skin-CornerMP -l pl
+Skórka CornerMP.
+
+%package -n mplayer-skin-CornerMP-aqua
+Summary:	CornerMP-aqua skin
+Summary(pl):	Skórka CornerMP-aqua
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-CornerMP-aqua
+CornerMP-aqua skin.
+
+%description -n mplayer-skin-CornerMP-aqua -l pl
+Skórka CornerMP-aqua.
+
+%package -n mplayer-skin-Plastik
+Summary:	Plastik skin
+Summary(pl):	Skórka Plastik
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-Plastik
+Plastik skin.
+
+%description -n mplayer-skin-Plastik -l pl
+Skórka Plastik.
+
 %prep
 
 %install
@@ -101,6 +288,74 @@ rm -rf $RPM_BUILD_ROOT
 %files -n mplayer-skin-BlueHeart
 %defattr(644,root,root,755)
 %{_skindir}/BlueHeart
+
+%files -n mplayer-skin-Cyrus
+%defattr(644,root,root,755)
+%{_skindir}/Cyrus
+
+%files -n mplayer-skin-MidnightLove
+%defattr(644,root,root,755)
+%{_skindir}/MidnightLove
+
+%files -n mplayer-skin-WindowsMediaPlayer6
+%defattr(644,root,root,755)
+%{_skindir}/WindowsMediaPlayer6
+
+%files -n mplayer-skin-avifile
+%defattr(644,root,root,755)
+%{_skindir}/avifile
+
+%files -n mplayer-skin-phony
+%defattr(644,root,root,755)
+%{_skindir}/phony
+
+%files -n mplayer-skin-plastic
+%defattr(644,root,root,755)
+%{_skindir}/plastic
+
+%files -n mplayer-skin-proton
+%defattr(644,root,root,755)
+%{_skindir}/proton
+
+%files -n mplayer-skin-xanim
+%defattr(644,root,root,755)
+%{_skindir}/xanim
+
+%files -n mplayer-skin-xine-lcd
+%defattr(644,root,root,755)
+%{_skindir}/xine-lcd
+
+%files -n mplayer-skin-mentalic
+%defattr(644,root,root,755)
+%{_skindir}/mentalic
+
+%files -n mplayer-skin-AlienMind
+%defattr(644,root,root,755)
+%{_skindir}/AlienMind
+
+%files -n mplayer-skin-hwswskin
+%defattr(644,root,root,755)
+%{_skindir}/hwswskin
+
+%files -n mplayer-skin-XFce4
+%defattr(644,root,root,755)
+%{_skindir}/XFce4
+
+%files -n mplayer-skin-OSX-Brushed
+%defattr(644,root,root,755)
+%{_skindir}/OSX-Brushed
+
+%files -n mplayer-skin-CornerMP
+%defattr(644,root,root,755)
+%{_skindir}/CornerMP
+
+%files -n mplayer-skin-CornerMP-aqua
+%defattr(644,root,root,755)
+%{_skindir}/CornerMP-aqua
+
+%files -n mplayer-skin-Plastik
+%defattr(644,root,root,755)
+%{_skindir}/Plastik
 
 %files
 %defattr(644,root,root,755)
