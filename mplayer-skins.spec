@@ -6,19 +6,19 @@ Release:	9
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
-# Source0-md5:	d968298e7e596a6097f42941aecc7508
+# Source0-md5:	fc989a046d9859da45e35d527bfc9acf
 Source1:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Cyrus-1.2.tar.bz2
 # Source1-md5:	33c9f70b1a609b90b786e88ba4e71bdc
 Source2:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/MidnightLove-1.6.tar.bz2
-# Source2-md5:	45ef90da3cd0d11f6620e98cd5a9be9d
+# Source2-md5:	e0caeef812608903d6fb9d231dd1c921
 Source3:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/WindowsMediaPlayer6-2.0.tar.bz2
 # Source3-md5:	17792c2feebb615d4ffd3c175d362c5a
 Source4:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/avifile-1.6.tar.bz2
 # Source4-md5:	8461daefbcf31ca64446c39d16b3851f
 Source5:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/neutron-1.5.tar.bz2
-# Source5-md5:	faccbe3a5812ab4207d209e3c4101f2d
+# Source5-md5:	8a58b45c54b96de539bbc433a94434b4
 Source6:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/phony-1.1.tar.bz2
-# Source6-md5:	e4d3bc7c82c822afe725b2f27a350d01
+# Source6-md5:	50ad8b60117d006a3cae611d32759499
 Source7:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/plastic-1.2.tar.bz2
 # Source7-md5:	92a8c17fd85216ad382858babc9b508b
 Source8:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/proton-1.2.tar.bz2
@@ -28,17 +28,17 @@ Source9:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/xanim-1.6.tar.bz2
 Source10:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/xine-lcd-1.2.tar.bz2
 # Source10-md5:	8cd553b5650c82f99f554e1bb15df1e7
 Source11:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/mentalic-1.2.tar.bz2
-# Source11-md5:	608ee25f7f2b3715542ceca65409fbdd
+# Source11-md5:	2167a5c5a21ed058fd245c728b2b3221
 Source12:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/AlienMind-1.2.tar.bz2
-# Source12-md5:	3fa7d3f317d148af5ce1dcc596404381
+# Source12-md5:	76c42820c0965753e94b057e7a3e7e2c
 Source13:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/hwswskin-1.1.tar.bz2
-# Source13-md5:	3020159664fdfd534fbb0a41343a1134
+# Source13-md5:	8cf72e80b937f8f02883447dce2b33c0
 Source14:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/XFce4-1.0.tar.bz2
 # Source14-md5:	64f6d3ee6d0667b8d6870eb378cb30a2
 Source15:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/OSX-Brushed-2.3.tar.bz2
-# Source15-md5:	fe6245b43fa4b35381fb5c0588b759fe
+# Source15-md5:	a9a0f5f567fb85189119b5ebd4ca1a33
 Source16:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/CornerMP-1.2.tar.bz2
-# Source16-md5:	54d777362ef7a0e16f22e0542d52108f
+# Source16-md5:	dacdac178e7f5fa323ad4e7f00daa465
 Source17:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/CornerMP-aqua-1.4.tar.bz2
 # Source17-md5:	f040b8d9e343e74fe32e985f17042091
 Source18:       http://download.freshmeat.net/themes/plastikmplayer/plastikmplayer-default.tar.gz
@@ -46,17 +46,17 @@ Source18:       http://download.freshmeat.net/themes/plastikmplayer/plastikmplay
 Source19:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/new-age-1.0.tar.bz2
 # Source19-md5:	9b127ddfb9771b6a561b00b3bfe762e3
 Source20:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Terminator3-1.1.tar.bz2
-# Source20-md5:	cc9ef8906822f0218dcaea461753f634
+# Source20-md5:	d1fa5c487cdbdc8e80b123e2c2873425
 Source21:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/OSX-Mod-1.1.tar.bz2
-# Source21-md5:	171f8b662af5f16c58a60a625cb2d433
+# Source21-md5:	922947f030c92ad8fb8a276b41dc39d6
 Source22:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Industrial-1.0.tar.bz2
-# Source22-md5:	c7925a255fcc6c1c8e4fed4811623f97
+# Source22-md5:	f63e03adc8756a8eb008a966ddf13817
 Source23:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/DVDPlayer-1.1.tar.bz2
-# Source23-md5:	33b8d20c9e913a7df1e1cdeb663dd205
+# Source23-md5:	f1ae6c17a970a1b5efeb73af3f4aaab0
 Source24:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Blue-1.4.tar.bz2
-# Source24-md5:	5fdc36704c4ec3a6dc6b57a536608180
+# Source24-md5:	031cfc6718f5d66b5af3e257cbc87158
 Source25:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/ultrafina-1.1.tar.bz2
-# Source25-md5:	5ed024697794290050de3f566c349f64
+# Source25-md5:	403d61ff2d2cddbfd76f5d0269725b7f
 URL:		http://www.mplayerhq.hu/
 Requires:	mplayer
 BuildArch:	noarch
