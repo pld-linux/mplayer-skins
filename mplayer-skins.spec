@@ -59,6 +59,17 @@ Windows Media Player, Avfile, Xine and many other.
 Dodtatkowe skórki dl MPlayera. W pakiecie znajudj± siê skórki udaj±ce
 wygl±d Widows Media Player, Avifile, Xine i wiele innych.
 
+%package -n mplayer-skin-BlueHeart
+Summary:	BlueHeart skin
+Summary(pl):	Skórka BlueHeart
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-BlueHeart
+BlueHeart skin.
+
+%description -n mplayer-skin-BlueHeart -l pl
+Skórka BlueHeart.
+
 %prep
 
 %install
@@ -87,6 +98,10 @@ gzip -dc %{SOURCE18} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
+
+%files -n mplayer-skin-BlueHeart
+%defattr(644,root,root,755)
+%{_skindir}/BlueHeart/*
 
 %files
 %defattr(644,root,root,755)
