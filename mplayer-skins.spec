@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.60
-Release:	7
+Release:	8
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
@@ -43,6 +43,16 @@ Source17:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/CornerMP-aqua-1.4.tar.bz2
 # Source17-md5:	f040b8d9e343e74fe32e985f17042091
 Source18:       http://download.freshmeat.net/themes/plastikmplayer/plastikmplayer-default.tar.gz
 # Source18-md5:	2a168d8663ad6f017647ea88258fc978
+Source19:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/new-age-1.0.tar.bz2
+# Source19-md5:	9b127ddfb9771b6a561b00b3bfe762e3
+Source20:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Terminator3-1.1.tar.bz2
+# Source20-md5:	cc9ef8906822f0218dcaea461753f634
+Source21:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/OSX-Mod-1.1.tar.bz2
+# Source21-md5:	171f8b662af5f16c58a60a625cb2d433
+Source22:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Industrial-1.0.tar.bz2
+# Source22-md5:	c7925a255fcc6c1c8e4fed4811623f97
+Source23:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/DVDPlayer-1.1.tar.bz2
+# Source23-md5:	33b8d20c9e913a7df1e1cdeb663dd205
 URL:		http://www.mplayerhq.hu/
 Requires:	mplayer
 BuildArch:	noarch
@@ -256,6 +266,61 @@ Plastik skin.
 %description -n mplayer-skin-Plastik -l pl
 Skórka Plastik.
 
+%package -n mplayer-skin-new-age
+Summary:	new-age skin
+Summary(pl):	Skórka new-age
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-new-age
+new-age skin.
+
+%description -n mplayer-skin-new-age -l pl
+Skórka new-age.
+
+%package -n mplayer-skin-Terminator3
+Summary:	Terminator3 skin
+Summary(pl):	Skórka Terminator3
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-Terminator3
+Terminator3 skin.
+
+%description -n mplayer-skin-Terminator3 -l pl
+Skórka Terminator3.
+
+%package -n mplayer-skin-OSX-Mod
+Summary:	OSX-Mod skin
+Summary(pl):	Skórka OSX-Mod
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-OSX-Mod
+OSX-Mod skin.
+
+%description -n mplayer-skin-OSX-Mod -l pl
+Skórka OSX-Mod.
+
+%package -n mplayer-skin-Industrial
+Summary:	Industrial skin
+Summary(pl):	Skórka Industrial
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-Industrial
+Industrial skin.
+
+%description -n mplayer-skin-Industrial -l pl
+Skórka Industrial.
+
+%package -n mplayer-skin-DVDPlayer
+Summary:	DVDPlayer skin
+Summary(pl):	Skórka DVDPlayer
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-DVDPlayer
+DVDPlayer skin.
+
+%description -n mplayer-skin-DVDPlayer -l pl
+Skórka DVDPlayer.
+
 %prep
 
 %install
@@ -281,6 +346,11 @@ bzip2 -dc %{SOURCE15} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE16} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE17} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 gzip -dc %{SOURCE18} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE19} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE20} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE21} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE22} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE23} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -356,6 +426,26 @@ rm -rf $RPM_BUILD_ROOT
 %files -n mplayer-skin-Plastik
 %defattr(644,root,root,755)
 %{_skindir}/Plastik
+
+%files -n mplayer-skin-new-age
+%defattr(644,root,root,755)
+%{_skindir}/new-age
+
+%files -n mplayer-skin-Terminator3
+%defattr(644,root,root,755)
+%{_skindir}/Terminator3
+
+%files -n mplayer-skin-OSX-Mod
+%defattr(644,root,root,755)
+%{_skindir}/OSX-Mod
+
+%files -n mplayer-skin-Industrial
+%defattr(644,root,root,755)
+%{_skindir}/Industrial
+
+%files -n mplayer-skin-DVDPlayer
+%defattr(644,root,root,755)
+%{_skindir}/DVDPlayer
 
 %files
 %defattr(644,root,root,755)
