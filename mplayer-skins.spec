@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.60
-Release:	8
+Release:	9
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
@@ -53,6 +53,10 @@ Source22:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Industrial-1.0.tar.bz2
 # Source22-md5:	c7925a255fcc6c1c8e4fed4811623f97
 Source23:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/DVDPlayer-1.1.tar.bz2
 # Source23-md5:	33b8d20c9e913a7df1e1cdeb663dd205
+Source24:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Blue-1.4.tar.bz2
+# Source24-md5:	5fdc36704c4ec3a6dc6b57a536608180
+Source25:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/ultrafina-1.1.tar.bz2
+# Source25-md5:	5ed024697794290050de3f566c349f64
 URL:		http://www.mplayerhq.hu/
 Requires:	mplayer
 BuildArch:	noarch
@@ -321,6 +325,28 @@ DVDPlayer skin.
 %description -n mplayer-skin-DVDPlayer -l pl
 Skórka DVDPlayer.
 
+%package -n mplayer-skin-Blue
+Summary:	Blue skin
+Summary(pl):	Skórka Blue
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-Blue
+Blue skin (new default MPlayer skin).
+
+%description -n mplayer-skin-Blue -l pl
+Skórka Blue (obecnie domylna skórka MPlayera).
+
+%package -n mplayer-skin-ultrafina
+Summary:	ultrafina skin
+Summary(pl):	Skórka ultrafina
+Group:		X11/Applications/Multimedia
+
+%description -n mplayer-skin-ultrafina
+ultrafina skin (based on the XMMS ultrafina skin).
+
+%description -n mplayer-skin-ultrafina -l pl
+Skórka ultrafina (skórka wzorowana na skórce ultrafina do XMMS).
+
 %prep
 
 %install
@@ -351,6 +377,8 @@ bzip2 -dc %{SOURCE20} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE21} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE22} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE23} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE24} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE25} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -450,3 +478,11 @@ rm -rf $RPM_BUILD_ROOT
 %files -n mplayer-skin-DVDPlayer
 %defattr(644,root,root,755)
 %{_skindir}/DVDPlayer
+
+%files -n mplayer-skin-Blue
+%defattr(644,root,root,755)
+%{_skindir}/Blue
+
+%files -n mplayer-skin-ultrafina
+%defattr(644,root,root,755)
+%{_skindir}/ultrafina
