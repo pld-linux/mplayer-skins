@@ -65,7 +65,7 @@ Addotional skins for MPlayer. Included are skins emulating look of
 Windows Media Player, Avfile, Xine and many other.
 
 %description -l pl
-Dodtatkowe skórki dl MPlayera. W pakiecie znajudj± siê skórki udaj±ce
+Dodtatkowe skórki dla MPlayera. W pakiecie znajudj± siê skórki udaj±ce
 wygl±d Widows Media Player, Avifile, Xine i wiele innych.
 
 %package -n mplayer-skin-BlueHeart
