@@ -6,7 +6,7 @@ Release:	3
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://mplayerhq.hu/MPlayer/Skin/BlueHeart-1.4.tar.bz2
-# Source0-md5: abacf062eb9166cf287379deb5be8170
+# Source0-md5: c38e378f24b9f0e041c98305fbef4a5d
 Source1:	ftp://mplayerhq.hu/MPlayer/Skin/Cyrus-1.0.tar.bz2
 # Source1-md5: b4381b4bf77f89ef3d31e2a354af3ddc
 Source2:	ftp://mplayerhq.hu/MPlayer/Skin/MidnightLove-1.5.tar.bz2
