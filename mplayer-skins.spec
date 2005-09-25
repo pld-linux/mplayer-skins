@@ -1,8 +1,10 @@
+# TODO
+# - versions for subpackages?
 Summary:	MPlayer - skins
 Summary(pl):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.60
-Release:	12.9
+Release:	12.10
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
@@ -65,7 +67,7 @@ Provides:	mplayer-skin
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_skindir	%{_prefix}/share/mplayer/Skin
+%define		_skindir	%{_datadir}/mplayer/Skin
 
 %description
 Additional skins for MPlayer. Included are skins emulating look of
