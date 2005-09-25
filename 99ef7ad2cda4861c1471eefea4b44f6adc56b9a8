@@ -1,0 +1,2 @@
+- Added empty %prep section for ./builder to get sources and patches
+  list.
