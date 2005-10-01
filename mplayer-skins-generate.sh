@@ -12,6 +12,16 @@ spec='../SPECS/mplayer-skins.spec'
 rm -f .listing
 wget -r -np -nd -c "$url" --no-remove-listing
 
+add_spec_block() {
+	local block="$1"
+	sed -i -e "/NEW SKIN MARKER: $block/{
+		r $tmpf
+		a# NEW SKIN MARKER: $block
+		d
+	}
+	" $spec
+}
+
 add_skin() {
 	local file="$1"; shift
 	local skin="$1"; shift
@@ -38,8 +48,9 @@ Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-@skin@ -l pl
 Skórka @skin@.
+
 EOF
-	sed -i -e "/NEW SKIN MARKER: PREAMBLE/r $tmpf" $spec
+	add_spec_block PREAMBLE
 
 	# add %post
 	sed > $tmpf -e "
@@ -53,7 +64,7 @@ if [ "$1" = 1 ]; then
 fi
 
 EOF
-	sed -i -e "/NEW SKIN MARKER: POST/r $tmpf" $spec
+	add_spec_block POST
 
 	# add %files
 	sed > $tmpf -e "
@@ -61,12 +72,12 @@ EOF
 	s,@skin@,$skin,g
 	s,@version@,$version,g
 	" <<'EOF'
-
 %files -n mplayer-skin-@skin@
 %defattr(644,root,root,755)
 %{_skindir}/@skin@
+
 EOF
-	sed -i -e "/NEW SKIN MARKER: FILES/r $tmpf" $spec
+	add_spec_block FILES
 
 	# find free source nr
 	last=$(grep -o '^Source[0-9]\+' $spec | sed -s 's,^Source,,' | sort -n | tail -n 1)
@@ -87,9 +98,12 @@ Source$nr:	$url$file\\
 	" <<'EOF'
 @unpack@ | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 EOF
-	sed -i -e "/NEW SKIN MARKER: UNPACK/r $tmpf" $spec
+	add_spec_block UNPACK
 
 	rm -f $tmpf
+
+	 # delete all leading blank lines at top of file
+	sed -i -e '/./,$!d' $spec
 }
 
 update_skin() {
