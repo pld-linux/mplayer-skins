@@ -58,6 +58,76 @@ Source25:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/ultrafina-1.1.tar.bz2
 # Source25-md5:	e7ce4d77e5b40f072302ac397fef7d06
 Source26:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
 # Source26-md5:	cdb98e53139d6f0b41d48daf4399cec3
+Source27:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Abyss-1.1.tar.bz2
+# Source27-md5:	926e98832767c7477e6b40e25afe0eee
+Source28:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Blue-small-1.2.tar.bz2
+# Source28-md5:	df573a0fc87e7c72f55f1c16b70697f1
+Source29:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Canary-1.2.tar.bz2
+# Source29-md5:	b17c69e4fc906443ba9b242185d0a37e
+Source30:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Corelian-1.1.tar.bz2
+# Source30-md5:	efb2c71db53b3c65ce7861af813aa641
+Source31:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/CubicPlayer-1.1.tar.bz2
+# Source31-md5:	97ccb6312d2b94bce2e406f86e5716f2
+Source32:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Dushku-1.2.tar.bz2
+# Source32-md5:	a5172092b65cf755468b09d65adca741
+Source33:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/JiMPlayer-1.4.tar.bz2
+# Source33-md5:	b54ee0762f143a05f84bfbc4333e0609
+Source34:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/KDE-0.3.tar.bz2
+# Source34-md5:	c7672eb196c1791e56b02ef6fd06bbf6
+Source35:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/OpenDoh-1.1.tar.bz2
+# Source35-md5:	4158ad960eeb331690083635fa5bad16
+Source36:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/Orange-1.3.tar.bz2
+# Source36-md5:	e48707658c063b52ce06e193d16a6eeb
+Source37:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/PowerPlayer-1.1.tar.bz2
+# Source37-md5:	3eae4bb919312086d61e68f76e23a290
+Source38:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/QPlayer-1.2.tar.bz2
+# Source38-md5:	984f5429423b1b58873ce258c5455b65
+Source39:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/QuickSilver-1.0.tar.bz2
+# Source39-md5:	a1c6810821b83bdf38395c32ee3762d3
+Source40:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/bluecurve-1.3.tar.bz2
+# Source40-md5:	1f89d9cae4d905a3982bdec6297a54af
+Source41:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/changuito-0.2.tar.bz2
+# Source41-md5:	14987337631b32a2791eaa0bbd697cdb
+Source42:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/disappearer-1.1.tar.bz2
+# Source42-md5:	c9ac2c61fbac42b12180160f5e8d6eae
+Source43:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/divxplayer-1.3.tar.bz2
+# Source43-md5:	d3d376de17a033dd84aab1b0d108aac6
+Source44:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/gnome-1.1.tar.bz2
+# Source44-md5:	902ab932b8e70c0e33ff55b339342532
+Source45:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/handheld-1.0.tar.bz2
+# Source45-md5:	4a0b4acc9df27bbf4069e682fa2783c6
+Source46:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/hayraphon-1.0.tar.bz2
+# Source46-md5:	bed432682472b7d46606dcf3ea31757a
+Source47:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/iTunes-1.1.tar.bz2
+# Source47-md5:	a6f171a6ac3fda3c856952b07d0a51e5
+Source48:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/iTunes-mini-1.1.tar.bz2
+# Source48-md5:	91be11d8cd5ef77b7e9fdef407635f92
+Source49:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/krystal-1.1.tar.bz2
+# Source49-md5:	d0078fd929e8a65c082d9939138a4ccd
+Source50:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/moonphase-1.0.tar.bz2
+# Source50-md5:	8cd748e0f425d79d88d318de9599b35a
+Source51:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/mplayer_red-1.0.tar.bz2
+# Source51-md5:	395c3c5be1bec72459d7ddd5eaa7831a
+Source52:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/netscape4-1.0.tar.bz2
+# Source52-md5:	fa975c4b38b4687e25e2fddb64db1d73
+Source53:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/plastik-2.0.tar.bz2
+# Source53-md5:	4f064c49fa243f03f0a0ae4207df56ca
+Source54:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/sessene-1.0.tar.bz2
+# Source54-md5:	713366faeb53f5afe40e5327caf76e09
+Source55:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/slim-1.2.tar.bz2
+# Source55-md5:	17c93eba4ea641625abfe946c52838b4
+Source56:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/smoothwebby-1.0.tar.bz2
+# Source56-md5:	61e6cd4f8b68dc003f35e214032ede0a
+Source57:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/softgrip-1.1.tar.bz2
+# Source57-md5:	1b342d4dd79015b834b8be0c2589fc6e
+Source58:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/standard-1.9.tar.bz2
+# Source58-md5:	bee65f46ab2a1d2bb9abcbfb11d4a6a7
+Source59:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/trium-1.3.tar.bz2
+# Source59-md5:	59aba84f76d63a2ab4972d2f7c4558de
+Source60:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/tvisor-1.1.tar.bz2
+# Source60-md5:	bc16167c1061ef5ebf5f139160f5db4f
+Source61:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/xmmplayer-1.5.tar.bz2
+# Source61-md5:	820e25a4fcebea42e5e497b8415cceb4
 URL:		http://www.mplayerhq.hu/
 Requires:	gmplayer
 Obsoletes:	mplayer-skin-WindowsMediaPlayer6
@@ -466,6 +536,531 @@ ultrafina skin (based on the XMMS ultrafina skin).
 %description -n mplayer-skin-ultrafina -l pl
 Skórka ultrafina (skórka wzorowana na skórce ultrafina do XMMS).
 
+%package -n mplayer-skin-Abyss
+Summary:	Abyss skin
+Summary(pl):	Skórka Abyss
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-Abyss
+Abyss skin.
+
+%description -n mplayer-skin-Abyss -l pl
+Skórka Abyss.
+
+%package -n mplayer-skin-Blue-small
+Summary:	Blue-small skin
+Summary(pl):	Skórka Blue-small
+Version:	1.2
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-Blue-small
+Blue-small skin.
+
+%description -n mplayer-skin-Blue-small -l pl
+Skórka Blue-small.
+
+%package -n mplayer-skin-Canary
+Summary:	Canary skin
+Summary(pl):	Skórka Canary
+Version:	1.2
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-Canary
+Canary skin.
+
+%description -n mplayer-skin-Canary -l pl
+Skórka Canary.
+
+%package -n mplayer-skin-Corelian
+Summary:	Corelian skin
+Summary(pl):	Skórka Corelian
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-Corelian
+Corelian skin.
+
+%description -n mplayer-skin-Corelian -l pl
+Skórka Corelian.
+
+%package -n mplayer-skin-CubicPlayer
+Summary:	CubicPlayer skin
+Summary(pl):	Skórka CubicPlayer
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-CubicPlayer
+CubicPlayer skin.
+
+%description -n mplayer-skin-CubicPlayer -l pl
+Skórka CubicPlayer.
+
+%package -n mplayer-skin-Dushku
+Summary:	Dushku skin
+Summary(pl):	Skórka Dushku
+Version:	1.2
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-Dushku
+Dushku skin.
+
+%description -n mplayer-skin-Dushku -l pl
+Skórka Dushku.
+
+%package -n mplayer-skin-JiMPlayer
+Summary:	JiMPlayer skin
+Summary(pl):	Skórka JiMPlayer
+Version:	1.4
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-JiMPlayer
+JiMPlayer skin.
+
+%description -n mplayer-skin-JiMPlayer -l pl
+Skórka JiMPlayer.
+
+%package -n mplayer-skin-KDE
+Summary:	KDE skin
+Summary(pl):	Skórka KDE
+Version:	0.3
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-KDE
+KDE skin.
+
+%description -n mplayer-skin-KDE -l pl
+Skórka KDE.
+
+%package -n mplayer-skin-OpenDoh
+Summary:	OpenDoh skin
+Summary(pl):	Skórka OpenDoh
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-OpenDoh
+OpenDoh skin.
+
+%description -n mplayer-skin-OpenDoh -l pl
+Skórka OpenDoh.
+
+%package -n mplayer-skin-Orange
+Summary:	Orange skin
+Summary(pl):	Skórka Orange
+Version:	1.3
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-Orange
+Orange skin.
+
+%description -n mplayer-skin-Orange -l pl
+Skórka Orange.
+
+%package -n mplayer-skin-PowerPlayer
+Summary:	PowerPlayer skin
+Summary(pl):	Skórka PowerPlayer
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-PowerPlayer
+PowerPlayer skin.
+
+%description -n mplayer-skin-PowerPlayer -l pl
+Skórka PowerPlayer.
+
+%package -n mplayer-skin-QPlayer
+Summary:	QPlayer skin
+Summary(pl):	Skórka QPlayer
+Version:	1.2
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-QPlayer
+QPlayer skin.
+
+%description -n mplayer-skin-QPlayer -l pl
+Skórka QPlayer.
+
+%package -n mplayer-skin-QuickSilver
+Summary:	QuickSilver skin
+Summary(pl):	Skórka QuickSilver
+Version:	1.0
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-QuickSilver
+QuickSilver skin.
+
+%description -n mplayer-skin-QuickSilver -l pl
+Skórka QuickSilver.
+
+%package -n mplayer-skin-bluecurve
+Summary:	bluecurve skin
+Summary(pl):	Skórka bluecurve
+Version:	1.3
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-bluecurve
+bluecurve skin.
+
+%description -n mplayer-skin-bluecurve -l pl
+Skórka bluecurve.
+
+%package -n mplayer-skin-changuito
+Summary:	changuito skin
+Summary(pl):	Skórka changuito
+Version:	0.2
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-changuito
+changuito skin.
+
+%description -n mplayer-skin-changuito -l pl
+Skórka changuito.
+
+%package -n mplayer-skin-disappearer
+Summary:	disappearer skin
+Summary(pl):	Skórka disappearer
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-disappearer
+disappearer skin.
+
+%description -n mplayer-skin-disappearer -l pl
+Skórka disappearer.
+
+%package -n mplayer-skin-divxplayer
+Summary:	divxplayer skin
+Summary(pl):	Skórka divxplayer
+Version:	1.3
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-divxplayer
+divxplayer skin.
+
+%description -n mplayer-skin-divxplayer -l pl
+Skórka divxplayer.
+
+%package -n mplayer-skin-gnome
+Summary:	gnome skin
+Summary(pl):	Skórka gnome
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-gnome
+gnome skin.
+
+%description -n mplayer-skin-gnome -l pl
+Skórka gnome.
+
+%package -n mplayer-skin-handheld
+Summary:	handheld skin
+Summary(pl):	Skórka handheld
+Version:	1.0
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-handheld
+handheld skin.
+
+%description -n mplayer-skin-handheld -l pl
+Skórka handheld.
+
+%package -n mplayer-skin-hayraphon
+Summary:	hayraphon skin
+Summary(pl):	Skórka hayraphon
+Version:	1.0
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-hayraphon
+hayraphon skin.
+
+%description -n mplayer-skin-hayraphon -l pl
+Skórka hayraphon.
+
+%package -n mplayer-skin-iTunes
+Summary:	iTunes skin
+Summary(pl):	Skórka iTunes
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-iTunes
+iTunes skin.
+
+%description -n mplayer-skin-iTunes -l pl
+Skórka iTunes.
+
+%package -n mplayer-skin-iTunes-mini
+Summary:	iTunes-mini skin
+Summary(pl):	Skórka iTunes-mini
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-iTunes-mini
+iTunes-mini skin.
+
+%description -n mplayer-skin-iTunes-mini -l pl
+Skórka iTunes-mini.
+
+%package -n mplayer-skin-krystal
+Summary:	krystal skin
+Summary(pl):	Skórka krystal
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-krystal
+krystal skin.
+
+%description -n mplayer-skin-krystal -l pl
+Skórka krystal.
+
+%package -n mplayer-skin-moonphase
+Summary:	moonphase skin
+Summary(pl):	Skórka moonphase
+Version:	1.0
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-moonphase
+moonphase skin.
+
+%description -n mplayer-skin-moonphase -l pl
+Skórka moonphase.
+
+%package -n mplayer-skin-mplayer_red
+Summary:	mplayer_red skin
+Summary(pl):	Skórka mplayer_red
+Version:	1.0
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-mplayer_red
+mplayer_red skin.
+
+%description -n mplayer-skin-mplayer_red -l pl
+Skórka mplayer_red.
+
+%package -n mplayer-skin-netscape4
+Summary:	netscape4 skin
+Summary(pl):	Skórka netscape4
+Version:	1.0
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-netscape4
+netscape4 skin.
+
+%description -n mplayer-skin-netscape4 -l pl
+Skórka netscape4.
+
+%package -n mplayer-skin-plastik
+Summary:	plastik skin
+Summary(pl):	Skórka plastik
+Version:	2.0
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-plastik
+plastik skin.
+
+%description -n mplayer-skin-plastik -l pl
+Skórka plastik.
+
+%package -n mplayer-skin-sessene
+Summary:	sessene skin
+Summary(pl):	Skórka sessene
+Version:	1.0
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-sessene
+sessene skin.
+
+%description -n mplayer-skin-sessene -l pl
+Skórka sessene.
+
+%package -n mplayer-skin-slim
+Summary:	slim skin
+Summary(pl):	Skórka slim
+Version:	1.2
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-slim
+slim skin.
+
+%description -n mplayer-skin-slim -l pl
+Skórka slim.
+
+%package -n mplayer-skin-smoothwebby
+Summary:	smoothwebby skin
+Summary(pl):	Skórka smoothwebby
+Version:	1.0
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-smoothwebby
+smoothwebby skin.
+
+%description -n mplayer-skin-smoothwebby -l pl
+Skórka smoothwebby.
+
+%package -n mplayer-skin-softgrip
+Summary:	softgrip skin
+Summary(pl):	Skórka softgrip
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-softgrip
+softgrip skin.
+
+%description -n mplayer-skin-softgrip -l pl
+Skórka softgrip.
+
+%package -n mplayer-skin-standard
+Summary:	standard skin
+Summary(pl):	Skórka standard
+Version:	1.9
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-standard
+standard skin.
+
+%description -n mplayer-skin-standard -l pl
+Skórka standard.
+
+%package -n mplayer-skin-trium
+Summary:	trium skin
+Summary(pl):	Skórka trium
+Version:	1.3
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-trium
+trium skin.
+
+%description -n mplayer-skin-trium -l pl
+Skórka trium.
+
+%package -n mplayer-skin-tvisor
+Summary:	tvisor skin
+Summary(pl):	Skórka tvisor
+Version:	1.1
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-tvisor
+tvisor skin.
+
+%description -n mplayer-skin-tvisor -l pl
+Skórka tvisor.
+
+%package -n mplayer-skin-xmmplayer
+Summary:	xmmplayer skin
+Summary(pl):	Skórka xmmplayer
+Version:	1.5
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-xmmplayer
+xmmplayer skin.
+
+%description -n mplayer-skin-xmmplayer -l pl
+Skórka xmmplayer.
+
 # NEW SKIN MARKER: PREAMBLE
 %prep
 
@@ -499,6 +1094,42 @@ bzip2 -dc %{SOURCE23} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE24} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE25} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE26} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE27} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE28} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE29} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE30} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE31} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE32} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE33} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE34} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE35} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE36} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE37} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE38} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE39} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE40} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE41} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE42} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE43} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE44} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE45} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE46} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE47} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE48} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE49} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE50} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE51} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE52} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE53} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE54} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE55} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE56} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE57} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE58} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE59} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE60} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE61} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+# NEW SKIN MARKER: UNPACK
 
 %clean
 rm -rf $RPM_BUILD_ROOT
@@ -638,6 +1269,181 @@ if [ "$1" = 1 ]; then
 	ln -snf ultrafina %{_skindir}/default
 fi
 
+%post -n mplayer-skin-Abyss
+if [ "$1" = 1 ]; then
+	ln -snf Abyss %{_skindir}/default
+fi
+
+%post -n mplayer-skin-Blue-small
+if [ "$1" = 1 ]; then
+	ln -snf Blue-small %{_skindir}/default
+fi
+
+%post -n mplayer-skin-Canary
+if [ "$1" = 1 ]; then
+	ln -snf Canary %{_skindir}/default
+fi
+
+%post -n mplayer-skin-Corelian
+if [ "$1" = 1 ]; then
+	ln -snf Corelian %{_skindir}/default
+fi
+
+%post -n mplayer-skin-CubicPlayer
+if [ "$1" = 1 ]; then
+	ln -snf CubicPlayer %{_skindir}/default
+fi
+
+%post -n mplayer-skin-Dushku
+if [ "$1" = 1 ]; then
+	ln -snf Dushku %{_skindir}/default
+fi
+
+%post -n mplayer-skin-JiMPlayer
+if [ "$1" = 1 ]; then
+	ln -snf JiMPlayer %{_skindir}/default
+fi
+
+%post -n mplayer-skin-KDE
+if [ "$1" = 1 ]; then
+	ln -snf KDE %{_skindir}/default
+fi
+
+%post -n mplayer-skin-OpenDoh
+if [ "$1" = 1 ]; then
+	ln -snf OpenDoh %{_skindir}/default
+fi
+
+%post -n mplayer-skin-Orange
+if [ "$1" = 1 ]; then
+	ln -snf Orange %{_skindir}/default
+fi
+
+%post -n mplayer-skin-PowerPlayer
+if [ "$1" = 1 ]; then
+	ln -snf PowerPlayer %{_skindir}/default
+fi
+
+%post -n mplayer-skin-QPlayer
+if [ "$1" = 1 ]; then
+	ln -snf QPlayer %{_skindir}/default
+fi
+
+%post -n mplayer-skin-QuickSilver
+if [ "$1" = 1 ]; then
+	ln -snf QuickSilver %{_skindir}/default
+fi
+
+%post -n mplayer-skin-bluecurve
+if [ "$1" = 1 ]; then
+	ln -snf bluecurve %{_skindir}/default
+fi
+
+%post -n mplayer-skin-changuito
+if [ "$1" = 1 ]; then
+	ln -snf changuito %{_skindir}/default
+fi
+
+%post -n mplayer-skin-disappearer
+if [ "$1" = 1 ]; then
+	ln -snf disappearer %{_skindir}/default
+fi
+
+%post -n mplayer-skin-divxplayer
+if [ "$1" = 1 ]; then
+	ln -snf divxplayer %{_skindir}/default
+fi
+
+%post -n mplayer-skin-gnome
+if [ "$1" = 1 ]; then
+	ln -snf gnome %{_skindir}/default
+fi
+
+%post -n mplayer-skin-handheld
+if [ "$1" = 1 ]; then
+	ln -snf handheld %{_skindir}/default
+fi
+
+%post -n mplayer-skin-hayraphon
+if [ "$1" = 1 ]; then
+	ln -snf hayraphon %{_skindir}/default
+fi
+
+%post -n mplayer-skin-iTunes
+if [ "$1" = 1 ]; then
+	ln -snf iTunes %{_skindir}/default
+fi
+
+%post -n mplayer-skin-iTunes-mini
+if [ "$1" = 1 ]; then
+	ln -snf iTunes-mini %{_skindir}/default
+fi
+
+%post -n mplayer-skin-krystal
+if [ "$1" = 1 ]; then
+	ln -snf krystal %{_skindir}/default
+fi
+
+%post -n mplayer-skin-moonphase
+if [ "$1" = 1 ]; then
+	ln -snf moonphase %{_skindir}/default
+fi
+
+%post -n mplayer-skin-mplayer_red
+if [ "$1" = 1 ]; then
+	ln -snf mplayer_red %{_skindir}/default
+fi
+
+%post -n mplayer-skin-netscape4
+if [ "$1" = 1 ]; then
+	ln -snf netscape4 %{_skindir}/default
+fi
+
+%post -n mplayer-skin-plastik
+if [ "$1" = 1 ]; then
+	ln -snf plastik %{_skindir}/default
+fi
+
+%post -n mplayer-skin-sessene
+if [ "$1" = 1 ]; then
+	ln -snf sessene %{_skindir}/default
+fi
+
+%post -n mplayer-skin-slim
+if [ "$1" = 1 ]; then
+	ln -snf slim %{_skindir}/default
+fi
+
+%post -n mplayer-skin-smoothwebby
+if [ "$1" = 1 ]; then
+	ln -snf smoothwebby %{_skindir}/default
+fi
+
+%post -n mplayer-skin-softgrip
+if [ "$1" = 1 ]; then
+	ln -snf softgrip %{_skindir}/default
+fi
+
+%post -n mplayer-skin-standard
+if [ "$1" = 1 ]; then
+	ln -snf standard %{_skindir}/default
+fi
+
+%post -n mplayer-skin-trium
+if [ "$1" = 1 ]; then
+	ln -snf trium %{_skindir}/default
+fi
+
+%post -n mplayer-skin-tvisor
+if [ "$1" = 1 ]; then
+	ln -snf tvisor %{_skindir}/default
+fi
+
+%post -n mplayer-skin-xmmplayer
+if [ "$1" = 1 ]; then
+	ln -snf xmmplayer %{_skindir}/default
+fi
+
 # NEW SKIN MARKER: POST
 %files
 %defattr(644,root,root,755)
@@ -746,5 +1552,145 @@ fi
 %files -n mplayer-skin-ultrafina
 %defattr(644,root,root,755)
 %{_skindir}/ultrafina
+
+%files -n mplayer-skin-Abyss
+%defattr(644,root,root,755)
+%{_skindir}/Abyss
+
+%files -n mplayer-skin-Blue-small
+%defattr(644,root,root,755)
+%{_skindir}/Blue-small
+
+%files -n mplayer-skin-Canary
+%defattr(644,root,root,755)
+%{_skindir}/Canary
+
+%files -n mplayer-skin-Corelian
+%defattr(644,root,root,755)
+%{_skindir}/Corelian
+
+%files -n mplayer-skin-CubicPlayer
+%defattr(644,root,root,755)
+%{_skindir}/CubicPlayer
+
+%files -n mplayer-skin-Dushku
+%defattr(644,root,root,755)
+%{_skindir}/Dushku
+
+%files -n mplayer-skin-JiMPlayer
+%defattr(644,root,root,755)
+%{_skindir}/JiMPlayer
+
+%files -n mplayer-skin-KDE
+%defattr(644,root,root,755)
+%{_skindir}/KDE
+
+%files -n mplayer-skin-OpenDoh
+%defattr(644,root,root,755)
+%{_skindir}/OpenDoh
+
+%files -n mplayer-skin-Orange
+%defattr(644,root,root,755)
+%{_skindir}/Orange
+
+%files -n mplayer-skin-PowerPlayer
+%defattr(644,root,root,755)
+%{_skindir}/PowerPlayer
+
+%files -n mplayer-skin-QPlayer
+%defattr(644,root,root,755)
+%{_skindir}/QPlayer
+
+%files -n mplayer-skin-QuickSilver
+%defattr(644,root,root,755)
+%{_skindir}/QuickSilver
+
+%files -n mplayer-skin-bluecurve
+%defattr(644,root,root,755)
+%{_skindir}/bluecurve
+
+%files -n mplayer-skin-changuito
+%defattr(644,root,root,755)
+%{_skindir}/changuito
+
+%files -n mplayer-skin-disappearer
+%defattr(644,root,root,755)
+%{_skindir}/disappearer
+
+%files -n mplayer-skin-divxplayer
+%defattr(644,root,root,755)
+%{_skindir}/divxplayer
+
+%files -n mplayer-skin-gnome
+%defattr(644,root,root,755)
+%{_skindir}/gnome
+
+%files -n mplayer-skin-handheld
+%defattr(644,root,root,755)
+%{_skindir}/handheld
+
+%files -n mplayer-skin-hayraphon
+%defattr(644,root,root,755)
+%{_skindir}/hayraphon
+
+%files -n mplayer-skin-iTunes
+%defattr(644,root,root,755)
+%{_skindir}/iTunes
+
+%files -n mplayer-skin-iTunes-mini
+%defattr(644,root,root,755)
+%{_skindir}/iTunes-mini
+
+%files -n mplayer-skin-krystal
+%defattr(644,root,root,755)
+%{_skindir}/krystal
+
+%files -n mplayer-skin-moonphase
+%defattr(644,root,root,755)
+%{_skindir}/moonphase
+
+%files -n mplayer-skin-mplayer_red
+%defattr(644,root,root,755)
+%{_skindir}/mplayer_red
+
+%files -n mplayer-skin-netscape4
+%defattr(644,root,root,755)
+%{_skindir}/netscape4
+
+%files -n mplayer-skin-plastik
+%defattr(644,root,root,755)
+%{_skindir}/plastik
+
+%files -n mplayer-skin-sessene
+%defattr(644,root,root,755)
+%{_skindir}/sessene
+
+%files -n mplayer-skin-slim
+%defattr(644,root,root,755)
+%{_skindir}/slim
+
+%files -n mplayer-skin-smoothwebby
+%defattr(644,root,root,755)
+%{_skindir}/smoothwebby
+
+%files -n mplayer-skin-softgrip
+%defattr(644,root,root,755)
+%{_skindir}/softgrip
+
+%files -n mplayer-skin-standard
+%defattr(644,root,root,755)
+%{_skindir}/standard
+
+%files -n mplayer-skin-trium
+%defattr(644,root,root,755)
+%{_skindir}/trium
+
+%files -n mplayer-skin-tvisor
+%defattr(644,root,root,755)
+%{_skindir}/tvisor
+
+%files -n mplayer-skin-xmmplayer
+%defattr(644,root,root,755)
+%{_skindir}/xmmplayer
 
 # NEW SKIN MARKER: FILES
