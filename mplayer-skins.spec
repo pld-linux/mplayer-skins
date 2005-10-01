@@ -1,10 +1,8 @@
-# TODO
-# - versions for subpackages?
 Summary:	MPlayer - skins
 Summary(pl):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.60
-Release:	13
+Release:	13.1
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/BlueHeart-1.5.tar.bz2
@@ -80,6 +78,7 @@ wygl±d Widows Media Player, Avifile, Xine i wiele innych.
 %package -n mplayer-skin-BlueHeart
 Summary:	BlueHeart skin
 Summary(pl):	Skórka BlueHeart
+Version:	1.5
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -94,6 +93,7 @@ Skórka BlueHeart.
 %package -n mplayer-skin-Cyrus
 Summary:	Cyrus skin
 Summary(pl):	Skórka Cyrus
+Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -108,6 +108,7 @@ Skórka Cyrus.
 %package -n mplayer-skin-MidnightLove
 Summary:	MidnightLove skin
 Summary(pl):	Skórka MidnightLove
+Version:	1.6
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -122,6 +123,7 @@ Skórka MidnightLove.
 %package -n mplayer-skin-WMP6
 Summary:	WMP6 skin
 Summary(pl):	Skórka WMP6
+Version:	2.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -137,6 +139,7 @@ Skórka WMP6.
 %package -n mplayer-skin-avifile
 Summary:	avifile skin
 Summary(pl):	Skórka avifile
+Version:	1.6
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -148,9 +151,25 @@ avifile skin.
 %description -n mplayer-skin-avifile -l pl
 Skórka avifile.
 
+%package -n mplayer-skin-neutron
+Summary:	neutron skin
+Summary(pl):	Skórka neutron
+Version:	1.5
+Group:		X11/Applications/Multimedia
+Requires:	gmplayer
+Provides:	mplayer-skin
+Obsoletes:	mplayer-skins
+
+%description -n mplayer-skin-neutron
+neutron skin.
+
+%description -n mplayer-skin-neutron -l pl
+Skórka neutron.
+
 %package -n mplayer-skin-phony
 Summary:	phony skin
 Summary(pl):	Skórka phony
+Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -165,6 +184,7 @@ Skórka phony.
 %package -n mplayer-skin-plastic
 Summary:	plastic skin
 Summary(pl):	Skórka plastic
+Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -179,6 +199,7 @@ Skórka plastic.
 %package -n mplayer-skin-proton
 Summary:	proton skin
 Summary(pl):	Skórka proton
+Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -193,6 +214,7 @@ Skórka proton.
 %package -n mplayer-skin-xanim
 Summary:	xanim skin
 Summary(pl):	Skórka xanim
+Version:	1.6
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -207,6 +229,7 @@ Skórka xanim.
 %package -n mplayer-skin-xine-lcd
 Summary:	xine-lcd skin
 Summary(pl):	Skórka xine-lcd
+Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -221,6 +244,7 @@ Skórka xine-lcd.
 %package -n mplayer-skin-mentalic
 Summary:	mentalic skin
 Summary(pl):	Skórka mentalic
+Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -235,6 +259,7 @@ Skórka mentalic.
 %package -n mplayer-skin-AlienMind
 Summary:	AlienMind skin
 Summary(pl):	Skórka AlienMind
+Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -249,6 +274,7 @@ Skórka AlienMind.
 %package -n mplayer-skin-hwswskin
 Summary:	hwswskin skin
 Summary(pl):	Skórka hwswskin
+Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -263,6 +289,7 @@ Skórka hwswskin.
 %package -n mplayer-skin-XFce4
 Summary:	XFce4 skin
 Summary(pl):	Skórka XFce4
+Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -277,6 +304,7 @@ Skórka XFce4.
 %package -n mplayer-skin-OSX-Brushed
 Summary:	OSX-Brushed skin
 Summary(pl):	Skórka OSX-Brushed
+Version:	2.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -291,6 +319,7 @@ Skórka OSX-Brushed.
 %package -n mplayer-skin-CornerMP
 Summary:	CornerMP skin
 Summary(pl):	Skórka CornerMP
+Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -305,6 +334,7 @@ Skórka CornerMP.
 %package -n mplayer-skin-CornerMP-aqua
 Summary:	CornerMP-aqua skin
 Summary(pl):	Skórka CornerMP-aqua
+Version:	1.4
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -333,6 +363,7 @@ Skórka Plastik.
 %package -n mplayer-skin-new-age
 Summary:	new-age skin
 Summary(pl):	Skórka new-age
+Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -347,6 +378,7 @@ Skórka new-age.
 %package -n mplayer-skin-Terminator3
 Summary:	Terminator3 skin
 Summary(pl):	Skórka Terminator3
+Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -361,6 +393,7 @@ Skórka Terminator3.
 %package -n mplayer-skin-OSX-Mod
 Summary:	OSX-Mod skin
 Summary(pl):	Skórka OSX-Mod
+Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -375,6 +408,7 @@ Skórka OSX-Mod.
 %package -n mplayer-skin-Industrial
 Summary:	Industrial skin
 Summary(pl):	Skórka Industrial
+Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -389,6 +423,7 @@ Skórka Industrial.
 %package -n mplayer-skin-DVDPlayer
 Summary:	DVDPlayer skin
 Summary(pl):	Skórka DVDPlayer
+Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -403,6 +438,7 @@ Skórka DVDPlayer.
 %package -n mplayer-skin-Blue
 Summary:	Blue skin
 Summary(pl):	Skórka Blue
+Version:	1.4
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -417,6 +453,7 @@ Skórka Blue (obecnie domylna skórka MPlayera).
 %package -n mplayer-skin-ultrafina
 Summary:	ultrafina skin
 Summary(pl):	Skórka ultrafina
+Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -492,6 +529,11 @@ fi
 %post -n mplayer-skin-avifile
 if [ "$1" = 1 ]; then
 	ln -snf avifile %{_skindir}/default
+fi
+
+%post -n mplayer-skin-neutron
+if [ "$1" = 1 ]; then
+	ln -snf neutron %{_skindir}/default
 fi
 
 %post -n mplayer-skin-phony
@@ -617,6 +659,10 @@ fi
 %files -n mplayer-skin-avifile
 %defattr(644,root,root,755)
 %{_skindir}/avifile
+
+%files -n mplayer-skin-neutron
+%defattr(644,root,root,755)
+%{_skindir}/neutron
 
 %files -n mplayer-skin-phony
 %defattr(644,root,root,755)
