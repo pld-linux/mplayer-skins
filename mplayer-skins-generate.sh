@@ -8,7 +8,7 @@ dir=$(dirname "$0")
 cd "$dir"
 cd ../SOURCES # this makes sure we're in right place
 
-spec='../SPECS/mplayer-skins-new.spec'
+spec='../SPECS/mplayer-skins.spec'
 rm -f .listing
 wget -r -np -nd -c "$url" --no-remove-listing
 
