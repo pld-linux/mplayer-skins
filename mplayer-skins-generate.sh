@@ -9,8 +9,8 @@ cd "$dir"
 cd ../SOURCES # this makes sure we're in right place
 
 spec='../SPECS/mplayer-skins-new.spec'
-#rm -f .listing
-#wget -r -np -nd -c "$url" --no-remove-listing
+rm -f .listing
+wget -r -np -nd -c "$url" --no-remove-listing
 
 add_skin() {
 	local file="$1"; shift
@@ -33,6 +33,11 @@ Requires:	gmplayer
 Provides:	mplayer-skin
 Obsoletes:	mplayer-skins
 
+%description -n mplayer-skin-@skin@
+@skin@ skin.
+
+%description -n mplayer-skin-@skin@ -l pl
+Skórka @skin@.
 EOF
 	sed -i -e "/NEW SKIN MARKER: PREAMBLE/r $tmpf" $spec
 
