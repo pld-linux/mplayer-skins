@@ -130,9 +130,9 @@ Source61:	ftp://ftp1.mplayerhq.hu/MPlayer/Skin/xmmplayer-1.5.tar.bz2
 # Source61-md5:	820e25a4fcebea42e5e497b8415cceb4
 URL:		http://www.mplayerhq.hu/
 Requires:	gmplayer
-Obsoletes:	mplayer-skin-WindowsMediaPlayer6
-Obsoletes:	mplayer-skin
 Provides:	mplayer-skin
+Obsoletes:	mplayer-skin
+Obsoletes:	mplayer-skin-WindowsMediaPlayer6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
