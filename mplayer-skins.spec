@@ -1,5 +1,5 @@
 Summary:	MPlayer - skins
-Summary(pl):	MPlayer - skóry
+Summary(pl.UTF-8):   MPlayer - skÃ³ry
 Name:		mplayer-skins
 Version:	0.61
 Release:	1
@@ -142,13 +142,13 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 Additional skins for MPlayer. Included are skins emulating look of
 Windows Media Player, Avfile, Xine and many others.
 
-%description -l pl
-Dodatkowe skórki dla MPlayera. W pakiecie znajduj± siê skórki udaj±ce
-wygl±d Widows Media Player, Avifile, Xine i wiele innych.
+%description -l pl.UTF-8
+Dodatkowe skÃ³rki dla MPlayera. W pakiecie znajdujÄ… siÄ™ skÃ³rki udajÄ…ce
+wyglÄ…d Widows Media Player, Avifile, Xine i wiele innych.
 
 %package -n mplayer-skin-BlueHeart
 Summary:	BlueHeart skin
-Summary(pl):	Skórka BlueHeart
+Summary(pl.UTF-8):   SkÃ³rka BlueHeart
 Version:	1.5
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -158,12 +158,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-BlueHeart
 BlueHeart skin.
 
-%description -n mplayer-skin-BlueHeart -l pl
-Skórka BlueHeart.
+%description -n mplayer-skin-BlueHeart -l pl.UTF-8
+SkÃ³rka BlueHeart.
 
 %package -n mplayer-skin-Cyrus
 Summary:	Cyrus skin
-Summary(pl):	Skórka Cyrus
+Summary(pl.UTF-8):   SkÃ³rka Cyrus
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -173,12 +173,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Cyrus
 Cyrus skin.
 
-%description -n mplayer-skin-Cyrus -l pl
-Skórka Cyrus.
+%description -n mplayer-skin-Cyrus -l pl.UTF-8
+SkÃ³rka Cyrus.
 
 %package -n mplayer-skin-MidnightLove
 Summary:	MidnightLove skin
-Summary(pl):	Skórka MidnightLove
+Summary(pl.UTF-8):   SkÃ³rka MidnightLove
 Version:	1.6
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -188,12 +188,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-MidnightLove
 MidnightLove skin.
 
-%description -n mplayer-skin-MidnightLove -l pl
-Skórka MidnightLove.
+%description -n mplayer-skin-MidnightLove -l pl.UTF-8
+SkÃ³rka MidnightLove.
 
 %package -n mplayer-skin-WMP6
 Summary:	WMP6 skin
-Summary(pl):	Skórka WMP6
+Summary(pl.UTF-8):   SkÃ³rka WMP6
 Version:	2.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -204,12 +204,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-WMP6
 WMP6 skin.
 
-%description -n mplayer-skin-WMP6 -l pl
-Skórka WMP6.
+%description -n mplayer-skin-WMP6 -l pl.UTF-8
+SkÃ³rka WMP6.
 
 %package -n mplayer-skin-avifile
 Summary:	avifile skin
-Summary(pl):	Skórka avifile
+Summary(pl.UTF-8):   SkÃ³rka avifile
 Version:	1.6
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -219,12 +219,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-avifile
 avifile skin.
 
-%description -n mplayer-skin-avifile -l pl
-Skórka avifile.
+%description -n mplayer-skin-avifile -l pl.UTF-8
+SkÃ³rka avifile.
 
 %package -n mplayer-skin-neutron
 Summary:	neutron skin
-Summary(pl):	Skórka neutron
+Summary(pl.UTF-8):   SkÃ³rka neutron
 Version:	1.5
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -234,12 +234,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-neutron
 neutron skin.
 
-%description -n mplayer-skin-neutron -l pl
-Skórka neutron.
+%description -n mplayer-skin-neutron -l pl.UTF-8
+SkÃ³rka neutron.
 
 %package -n mplayer-skin-phony
 Summary:	phony skin
-Summary(pl):	Skórka phony
+Summary(pl.UTF-8):   SkÃ³rka phony
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -249,12 +249,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-phony
 phony skin.
 
-%description -n mplayer-skin-phony -l pl
-Skórka phony.
+%description -n mplayer-skin-phony -l pl.UTF-8
+SkÃ³rka phony.
 
 %package -n mplayer-skin-plastic
 Summary:	plastic skin
-Summary(pl):	Skórka plastic
+Summary(pl.UTF-8):   SkÃ³rka plastic
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -264,12 +264,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-plastic
 plastic skin.
 
-%description -n mplayer-skin-plastic -l pl
-Skórka plastic.
+%description -n mplayer-skin-plastic -l pl.UTF-8
+SkÃ³rka plastic.
 
 %package -n mplayer-skin-proton
 Summary:	proton skin
-Summary(pl):	Skórka proton
+Summary(pl.UTF-8):   SkÃ³rka proton
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -279,12 +279,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-proton
 proton skin.
 
-%description -n mplayer-skin-proton -l pl
-Skórka proton.
+%description -n mplayer-skin-proton -l pl.UTF-8
+SkÃ³rka proton.
 
 %package -n mplayer-skin-xanim
 Summary:	xanim skin
-Summary(pl):	Skórka xanim
+Summary(pl.UTF-8):   SkÃ³rka xanim
 Version:	1.6
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -294,12 +294,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-xanim
 xanim skin.
 
-%description -n mplayer-skin-xanim -l pl
-Skórka xanim.
+%description -n mplayer-skin-xanim -l pl.UTF-8
+SkÃ³rka xanim.
 
 %package -n mplayer-skin-xine-lcd
 Summary:	xine-lcd skin
-Summary(pl):	Skórka xine-lcd
+Summary(pl.UTF-8):   SkÃ³rka xine-lcd
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -309,12 +309,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-xine-lcd
 xine-lcd skin.
 
-%description -n mplayer-skin-xine-lcd -l pl
-Skórka xine-lcd.
+%description -n mplayer-skin-xine-lcd -l pl.UTF-8
+SkÃ³rka xine-lcd.
 
 %package -n mplayer-skin-mentalic
 Summary:	mentalic skin
-Summary(pl):	Skórka mentalic
+Summary(pl.UTF-8):   SkÃ³rka mentalic
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -324,12 +324,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-mentalic
 mentalic skin.
 
-%description -n mplayer-skin-mentalic -l pl
-Skórka mentalic.
+%description -n mplayer-skin-mentalic -l pl.UTF-8
+SkÃ³rka mentalic.
 
 %package -n mplayer-skin-AlienMind
 Summary:	AlienMind skin
-Summary(pl):	Skórka AlienMind
+Summary(pl.UTF-8):   SkÃ³rka AlienMind
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -339,12 +339,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-AlienMind
 AlienMind skin.
 
-%description -n mplayer-skin-AlienMind -l pl
-Skórka AlienMind.
+%description -n mplayer-skin-AlienMind -l pl.UTF-8
+SkÃ³rka AlienMind.
 
 %package -n mplayer-skin-hwswskin
 Summary:	hwswskin skin
-Summary(pl):	Skórka hwswskin
+Summary(pl.UTF-8):   SkÃ³rka hwswskin
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -354,12 +354,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-hwswskin
 hwswskin skin.
 
-%description -n mplayer-skin-hwswskin -l pl
-Skórka hwswskin.
+%description -n mplayer-skin-hwswskin -l pl.UTF-8
+SkÃ³rka hwswskin.
 
 %package -n mplayer-skin-XFce4
 Summary:	XFce4 skin
-Summary(pl):	Skórka XFce4
+Summary(pl.UTF-8):   SkÃ³rka XFce4
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -369,12 +369,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-XFce4
 XFce4 skin.
 
-%description -n mplayer-skin-XFce4 -l pl
-Skórka XFce4.
+%description -n mplayer-skin-XFce4 -l pl.UTF-8
+SkÃ³rka XFce4.
 
 %package -n mplayer-skin-OSX-Brushed
 Summary:	OSX-Brushed skin
-Summary(pl):	Skórka OSX-Brushed
+Summary(pl.UTF-8):   SkÃ³rka OSX-Brushed
 Version:	2.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -384,12 +384,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-OSX-Brushed
 OSX-Brushed skin.
 
-%description -n mplayer-skin-OSX-Brushed -l pl
-Skórka OSX-Brushed.
+%description -n mplayer-skin-OSX-Brushed -l pl.UTF-8
+SkÃ³rka OSX-Brushed.
 
 %package -n mplayer-skin-CornerMP
 Summary:	CornerMP skin
-Summary(pl):	Skórka CornerMP
+Summary(pl.UTF-8):   SkÃ³rka CornerMP
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -399,12 +399,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-CornerMP
 CornerMP skin.
 
-%description -n mplayer-skin-CornerMP -l pl
-Skórka CornerMP.
+%description -n mplayer-skin-CornerMP -l pl.UTF-8
+SkÃ³rka CornerMP.
 
 %package -n mplayer-skin-CornerMP-aqua
 Summary:	CornerMP-aqua skin
-Summary(pl):	Skórka CornerMP-aqua
+Summary(pl.UTF-8):   SkÃ³rka CornerMP-aqua
 Version:	1.4
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -414,12 +414,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-CornerMP-aqua
 CornerMP-aqua skin.
 
-%description -n mplayer-skin-CornerMP-aqua -l pl
-Skórka CornerMP-aqua.
+%description -n mplayer-skin-CornerMP-aqua -l pl.UTF-8
+SkÃ³rka CornerMP-aqua.
 
 %package -n mplayer-skin-Plastik
 Summary:	Plastik skin
-Summary(pl):	Skórka Plastik
+Summary(pl.UTF-8):   SkÃ³rka Plastik
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
@@ -428,12 +428,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Plastik
 Plastik skin.
 
-%description -n mplayer-skin-Plastik -l pl
-Skórka Plastik.
+%description -n mplayer-skin-Plastik -l pl.UTF-8
+SkÃ³rka Plastik.
 
 %package -n mplayer-skin-new-age
 Summary:	new-age skin
-Summary(pl):	Skórka new-age
+Summary(pl.UTF-8):   SkÃ³rka new-age
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -443,12 +443,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-new-age
 new-age skin.
 
-%description -n mplayer-skin-new-age -l pl
-Skórka new-age.
+%description -n mplayer-skin-new-age -l pl.UTF-8
+SkÃ³rka new-age.
 
 %package -n mplayer-skin-Terminator3
 Summary:	Terminator3 skin
-Summary(pl):	Skórka Terminator3
+Summary(pl.UTF-8):   SkÃ³rka Terminator3
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -458,12 +458,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Terminator3
 Terminator3 skin.
 
-%description -n mplayer-skin-Terminator3 -l pl
-Skórka Terminator3.
+%description -n mplayer-skin-Terminator3 -l pl.UTF-8
+SkÃ³rka Terminator3.
 
 %package -n mplayer-skin-OSX-Mod
 Summary:	OSX-Mod skin
-Summary(pl):	Skórka OSX-Mod
+Summary(pl.UTF-8):   SkÃ³rka OSX-Mod
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -473,12 +473,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-OSX-Mod
 OSX-Mod skin.
 
-%description -n mplayer-skin-OSX-Mod -l pl
-Skórka OSX-Mod.
+%description -n mplayer-skin-OSX-Mod -l pl.UTF-8
+SkÃ³rka OSX-Mod.
 
 %package -n mplayer-skin-Industrial
 Summary:	Industrial skin
-Summary(pl):	Skórka Industrial
+Summary(pl.UTF-8):   SkÃ³rka Industrial
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -488,12 +488,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Industrial
 Industrial skin.
 
-%description -n mplayer-skin-Industrial -l pl
-Skórka Industrial.
+%description -n mplayer-skin-Industrial -l pl.UTF-8
+SkÃ³rka Industrial.
 
 %package -n mplayer-skin-DVDPlayer
 Summary:	DVDPlayer skin
-Summary(pl):	Skórka DVDPlayer
+Summary(pl.UTF-8):   SkÃ³rka DVDPlayer
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -503,12 +503,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-DVDPlayer
 DVDPlayer skin.
 
-%description -n mplayer-skin-DVDPlayer -l pl
-Skórka DVDPlayer.
+%description -n mplayer-skin-DVDPlayer -l pl.UTF-8
+SkÃ³rka DVDPlayer.
 
 %package -n mplayer-skin-Blue
 Summary:	Blue skin
-Summary(pl):	Skórka Blue
+Summary(pl.UTF-8):   SkÃ³rka Blue
 Version:	1.4
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -518,12 +518,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Blue
 Blue skin (new default MPlayer skin).
 
-%description -n mplayer-skin-Blue -l pl
-Skórka Blue (obecnie domylna skórka MPlayera).
+%description -n mplayer-skin-Blue -l pl.UTF-8
+SkÃ³rka Blue (obecnie domylna skÃ³rka MPlayera).
 
 %package -n mplayer-skin-ultrafina
 Summary:	ultrafina skin
-Summary(pl):	Skórka ultrafina
+Summary(pl.UTF-8):   SkÃ³rka ultrafina
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -533,12 +533,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-ultrafina
 ultrafina skin (based on the XMMS ultrafina skin).
 
-%description -n mplayer-skin-ultrafina -l pl
-Skórka ultrafina (skórka wzorowana na skórce ultrafina do XMMS).
+%description -n mplayer-skin-ultrafina -l pl.UTF-8
+SkÃ³rka ultrafina (skÃ³rka wzorowana na skÃ³rce ultrafina do XMMS).
 
 %package -n mplayer-skin-Abyss
 Summary:	Abyss skin
-Summary(pl):	Skórka Abyss
+Summary(pl.UTF-8):   SkÃ³rka Abyss
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -548,12 +548,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Abyss
 Abyss skin.
 
-%description -n mplayer-skin-Abyss -l pl
-Skórka Abyss.
+%description -n mplayer-skin-Abyss -l pl.UTF-8
+SkÃ³rka Abyss.
 
 %package -n mplayer-skin-Blue-small
 Summary:	Blue-small skin
-Summary(pl):	Skórka Blue-small
+Summary(pl.UTF-8):   SkÃ³rka Blue-small
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -563,12 +563,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Blue-small
 Blue-small skin.
 
-%description -n mplayer-skin-Blue-small -l pl
-Skórka Blue-small.
+%description -n mplayer-skin-Blue-small -l pl.UTF-8
+SkÃ³rka Blue-small.
 
 %package -n mplayer-skin-Canary
 Summary:	Canary skin
-Summary(pl):	Skórka Canary
+Summary(pl.UTF-8):   SkÃ³rka Canary
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -578,12 +578,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Canary
 Canary skin.
 
-%description -n mplayer-skin-Canary -l pl
-Skórka Canary.
+%description -n mplayer-skin-Canary -l pl.UTF-8
+SkÃ³rka Canary.
 
 %package -n mplayer-skin-Corelian
 Summary:	Corelian skin
-Summary(pl):	Skórka Corelian
+Summary(pl.UTF-8):   SkÃ³rka Corelian
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -593,12 +593,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Corelian
 Corelian skin.
 
-%description -n mplayer-skin-Corelian -l pl
-Skórka Corelian.
+%description -n mplayer-skin-Corelian -l pl.UTF-8
+SkÃ³rka Corelian.
 
 %package -n mplayer-skin-CubicPlayer
 Summary:	CubicPlayer skin
-Summary(pl):	Skórka CubicPlayer
+Summary(pl.UTF-8):   SkÃ³rka CubicPlayer
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -608,12 +608,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-CubicPlayer
 CubicPlayer skin.
 
-%description -n mplayer-skin-CubicPlayer -l pl
-Skórka CubicPlayer.
+%description -n mplayer-skin-CubicPlayer -l pl.UTF-8
+SkÃ³rka CubicPlayer.
 
 %package -n mplayer-skin-Dushku
 Summary:	Dushku skin
-Summary(pl):	Skórka Dushku
+Summary(pl.UTF-8):   SkÃ³rka Dushku
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -623,12 +623,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Dushku
 Dushku skin.
 
-%description -n mplayer-skin-Dushku -l pl
-Skórka Dushku.
+%description -n mplayer-skin-Dushku -l pl.UTF-8
+SkÃ³rka Dushku.
 
 %package -n mplayer-skin-JiMPlayer
 Summary:	JiMPlayer skin
-Summary(pl):	Skórka JiMPlayer
+Summary(pl.UTF-8):   SkÃ³rka JiMPlayer
 Version:	1.4
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -638,12 +638,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-JiMPlayer
 JiMPlayer skin.
 
-%description -n mplayer-skin-JiMPlayer -l pl
-Skórka JiMPlayer.
+%description -n mplayer-skin-JiMPlayer -l pl.UTF-8
+SkÃ³rka JiMPlayer.
 
 %package -n mplayer-skin-KDE
 Summary:	KDE skin
-Summary(pl):	Skórka KDE
+Summary(pl.UTF-8):   SkÃ³rka KDE
 Version:	0.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -653,12 +653,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-KDE
 KDE skin.
 
-%description -n mplayer-skin-KDE -l pl
-Skórka KDE.
+%description -n mplayer-skin-KDE -l pl.UTF-8
+SkÃ³rka KDE.
 
 %package -n mplayer-skin-OpenDoh
 Summary:	OpenDoh skin
-Summary(pl):	Skórka OpenDoh
+Summary(pl.UTF-8):   SkÃ³rka OpenDoh
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -668,12 +668,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-OpenDoh
 OpenDoh skin.
 
-%description -n mplayer-skin-OpenDoh -l pl
-Skórka OpenDoh.
+%description -n mplayer-skin-OpenDoh -l pl.UTF-8
+SkÃ³rka OpenDoh.
 
 %package -n mplayer-skin-Orange
 Summary:	Orange skin
-Summary(pl):	Skórka Orange
+Summary(pl.UTF-8):   SkÃ³rka Orange
 Version:	1.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -683,12 +683,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-Orange
 Orange skin.
 
-%description -n mplayer-skin-Orange -l pl
-Skórka Orange.
+%description -n mplayer-skin-Orange -l pl.UTF-8
+SkÃ³rka Orange.
 
 %package -n mplayer-skin-PowerPlayer
 Summary:	PowerPlayer skin
-Summary(pl):	Skórka PowerPlayer
+Summary(pl.UTF-8):   SkÃ³rka PowerPlayer
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -698,12 +698,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-PowerPlayer
 PowerPlayer skin.
 
-%description -n mplayer-skin-PowerPlayer -l pl
-Skórka PowerPlayer.
+%description -n mplayer-skin-PowerPlayer -l pl.UTF-8
+SkÃ³rka PowerPlayer.
 
 %package -n mplayer-skin-QPlayer
 Summary:	QPlayer skin
-Summary(pl):	Skórka QPlayer
+Summary(pl.UTF-8):   SkÃ³rka QPlayer
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -713,12 +713,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-QPlayer
 QPlayer skin.
 
-%description -n mplayer-skin-QPlayer -l pl
-Skórka QPlayer.
+%description -n mplayer-skin-QPlayer -l pl.UTF-8
+SkÃ³rka QPlayer.
 
 %package -n mplayer-skin-QuickSilver
 Summary:	QuickSilver skin
-Summary(pl):	Skórka QuickSilver
+Summary(pl.UTF-8):   SkÃ³rka QuickSilver
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -728,12 +728,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-QuickSilver
 QuickSilver skin.
 
-%description -n mplayer-skin-QuickSilver -l pl
-Skórka QuickSilver.
+%description -n mplayer-skin-QuickSilver -l pl.UTF-8
+SkÃ³rka QuickSilver.
 
 %package -n mplayer-skin-bluecurve
 Summary:	bluecurve skin
-Summary(pl):	Skórka bluecurve
+Summary(pl.UTF-8):   SkÃ³rka bluecurve
 Version:	1.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -743,12 +743,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-bluecurve
 bluecurve skin.
 
-%description -n mplayer-skin-bluecurve -l pl
-Skórka bluecurve.
+%description -n mplayer-skin-bluecurve -l pl.UTF-8
+SkÃ³rka bluecurve.
 
 %package -n mplayer-skin-changuito
 Summary:	changuito skin
-Summary(pl):	Skórka changuito
+Summary(pl.UTF-8):   SkÃ³rka changuito
 Version:	0.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -758,12 +758,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-changuito
 changuito skin.
 
-%description -n mplayer-skin-changuito -l pl
-Skórka changuito.
+%description -n mplayer-skin-changuito -l pl.UTF-8
+SkÃ³rka changuito.
 
 %package -n mplayer-skin-disappearer
 Summary:	disappearer skin
-Summary(pl):	Skórka disappearer
+Summary(pl.UTF-8):   SkÃ³rka disappearer
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -773,12 +773,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-disappearer
 disappearer skin.
 
-%description -n mplayer-skin-disappearer -l pl
-Skórka disappearer.
+%description -n mplayer-skin-disappearer -l pl.UTF-8
+SkÃ³rka disappearer.
 
 %package -n mplayer-skin-divxplayer
 Summary:	divxplayer skin
-Summary(pl):	Skórka divxplayer
+Summary(pl.UTF-8):   SkÃ³rka divxplayer
 Version:	1.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -788,12 +788,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-divxplayer
 divxplayer skin.
 
-%description -n mplayer-skin-divxplayer -l pl
-Skórka divxplayer.
+%description -n mplayer-skin-divxplayer -l pl.UTF-8
+SkÃ³rka divxplayer.
 
 %package -n mplayer-skin-gnome
 Summary:	gnome skin
-Summary(pl):	Skórka gnome
+Summary(pl.UTF-8):   SkÃ³rka gnome
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -803,12 +803,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-gnome
 gnome skin.
 
-%description -n mplayer-skin-gnome -l pl
-Skórka gnome.
+%description -n mplayer-skin-gnome -l pl.UTF-8
+SkÃ³rka gnome.
 
 %package -n mplayer-skin-handheld
 Summary:	handheld skin
-Summary(pl):	Skórka handheld
+Summary(pl.UTF-8):   SkÃ³rka handheld
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -818,12 +818,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-handheld
 handheld skin.
 
-%description -n mplayer-skin-handheld -l pl
-Skórka handheld.
+%description -n mplayer-skin-handheld -l pl.UTF-8
+SkÃ³rka handheld.
 
 %package -n mplayer-skin-hayraphon
 Summary:	hayraphon skin
-Summary(pl):	Skórka hayraphon
+Summary(pl.UTF-8):   SkÃ³rka hayraphon
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -833,12 +833,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-hayraphon
 hayraphon skin.
 
-%description -n mplayer-skin-hayraphon -l pl
-Skórka hayraphon.
+%description -n mplayer-skin-hayraphon -l pl.UTF-8
+SkÃ³rka hayraphon.
 
 %package -n mplayer-skin-iTunes
 Summary:	iTunes skin
-Summary(pl):	Skórka iTunes
+Summary(pl.UTF-8):   SkÃ³rka iTunes
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -848,12 +848,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-iTunes
 iTunes skin.
 
-%description -n mplayer-skin-iTunes -l pl
-Skórka iTunes.
+%description -n mplayer-skin-iTunes -l pl.UTF-8
+SkÃ³rka iTunes.
 
 %package -n mplayer-skin-iTunes-mini
 Summary:	iTunes-mini skin
-Summary(pl):	Skórka iTunes-mini
+Summary(pl.UTF-8):   SkÃ³rka iTunes-mini
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -863,12 +863,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-iTunes-mini
 iTunes-mini skin.
 
-%description -n mplayer-skin-iTunes-mini -l pl
-Skórka iTunes-mini.
+%description -n mplayer-skin-iTunes-mini -l pl.UTF-8
+SkÃ³rka iTunes-mini.
 
 %package -n mplayer-skin-krystal
 Summary:	krystal skin
-Summary(pl):	Skórka krystal
+Summary(pl.UTF-8):   SkÃ³rka krystal
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -878,12 +878,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-krystal
 krystal skin.
 
-%description -n mplayer-skin-krystal -l pl
-Skórka krystal.
+%description -n mplayer-skin-krystal -l pl.UTF-8
+SkÃ³rka krystal.
 
 %package -n mplayer-skin-moonphase
 Summary:	moonphase skin
-Summary(pl):	Skórka moonphase
+Summary(pl.UTF-8):   SkÃ³rka moonphase
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -893,12 +893,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-moonphase
 moonphase skin.
 
-%description -n mplayer-skin-moonphase -l pl
-Skórka moonphase.
+%description -n mplayer-skin-moonphase -l pl.UTF-8
+SkÃ³rka moonphase.
 
 %package -n mplayer-skin-mplayer_red
 Summary:	mplayer_red skin
-Summary(pl):	Skórka mplayer_red
+Summary(pl.UTF-8):   SkÃ³rka mplayer_red
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -908,12 +908,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-mplayer_red
 mplayer_red skin.
 
-%description -n mplayer-skin-mplayer_red -l pl
-Skórka mplayer_red.
+%description -n mplayer-skin-mplayer_red -l pl.UTF-8
+SkÃ³rka mplayer_red.
 
 %package -n mplayer-skin-netscape4
 Summary:	netscape4 skin
-Summary(pl):	Skórka netscape4
+Summary(pl.UTF-8):   SkÃ³rka netscape4
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -923,12 +923,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-netscape4
 netscape4 skin.
 
-%description -n mplayer-skin-netscape4 -l pl
-Skórka netscape4.
+%description -n mplayer-skin-netscape4 -l pl.UTF-8
+SkÃ³rka netscape4.
 
 %package -n mplayer-skin-plastik
 Summary:	plastik skin
-Summary(pl):	Skórka plastik
+Summary(pl.UTF-8):   SkÃ³rka plastik
 Version:	2.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -938,12 +938,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-plastik
 plastik skin.
 
-%description -n mplayer-skin-plastik -l pl
-Skórka plastik.
+%description -n mplayer-skin-plastik -l pl.UTF-8
+SkÃ³rka plastik.
 
 %package -n mplayer-skin-sessene
 Summary:	sessene skin
-Summary(pl):	Skórka sessene
+Summary(pl.UTF-8):   SkÃ³rka sessene
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -953,12 +953,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-sessene
 sessene skin.
 
-%description -n mplayer-skin-sessene -l pl
-Skórka sessene.
+%description -n mplayer-skin-sessene -l pl.UTF-8
+SkÃ³rka sessene.
 
 %package -n mplayer-skin-slim
 Summary:	slim skin
-Summary(pl):	Skórka slim
+Summary(pl.UTF-8):   SkÃ³rka slim
 Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -968,12 +968,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-slim
 slim skin.
 
-%description -n mplayer-skin-slim -l pl
-Skórka slim.
+%description -n mplayer-skin-slim -l pl.UTF-8
+SkÃ³rka slim.
 
 %package -n mplayer-skin-smoothwebby
 Summary:	smoothwebby skin
-Summary(pl):	Skórka smoothwebby
+Summary(pl.UTF-8):   SkÃ³rka smoothwebby
 Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -983,12 +983,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-smoothwebby
 smoothwebby skin.
 
-%description -n mplayer-skin-smoothwebby -l pl
-Skórka smoothwebby.
+%description -n mplayer-skin-smoothwebby -l pl.UTF-8
+SkÃ³rka smoothwebby.
 
 %package -n mplayer-skin-softgrip
 Summary:	softgrip skin
-Summary(pl):	Skórka softgrip
+Summary(pl.UTF-8):   SkÃ³rka softgrip
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -998,12 +998,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-softgrip
 softgrip skin.
 
-%description -n mplayer-skin-softgrip -l pl
-Skórka softgrip.
+%description -n mplayer-skin-softgrip -l pl.UTF-8
+SkÃ³rka softgrip.
 
 %package -n mplayer-skin-standard
 Summary:	standard skin
-Summary(pl):	Skórka standard
+Summary(pl.UTF-8):   SkÃ³rka standard
 Version:	1.9
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -1013,12 +1013,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-standard
 standard skin.
 
-%description -n mplayer-skin-standard -l pl
-Skórka standard.
+%description -n mplayer-skin-standard -l pl.UTF-8
+SkÃ³rka standard.
 
 %package -n mplayer-skin-trium
 Summary:	trium skin
-Summary(pl):	Skórka trium
+Summary(pl.UTF-8):   SkÃ³rka trium
 Version:	1.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -1028,12 +1028,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-trium
 trium skin.
 
-%description -n mplayer-skin-trium -l pl
-Skórka trium.
+%description -n mplayer-skin-trium -l pl.UTF-8
+SkÃ³rka trium.
 
 %package -n mplayer-skin-tvisor
 Summary:	tvisor skin
-Summary(pl):	Skórka tvisor
+Summary(pl.UTF-8):   SkÃ³rka tvisor
 Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -1043,12 +1043,12 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-tvisor
 tvisor skin.
 
-%description -n mplayer-skin-tvisor -l pl
-Skórka tvisor.
+%description -n mplayer-skin-tvisor -l pl.UTF-8
+SkÃ³rka tvisor.
 
 %package -n mplayer-skin-xmmplayer
 Summary:	xmmplayer skin
-Summary(pl):	Skórka xmmplayer
+Summary(pl.UTF-8):   SkÃ³rka xmmplayer
 Version:	1.5
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -1058,8 +1058,8 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-xmmplayer
 xmmplayer skin.
 
-%description -n mplayer-skin-xmmplayer -l pl
-Skórka xmmplayer.
+%description -n mplayer-skin-xmmplayer -l pl.UTF-8
+SkÃ³rka xmmplayer.
 
 # NEW SKIN MARKER: PREAMBLE
 %prep
