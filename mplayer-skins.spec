@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl.UTF-8):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.61
-Release:	1
+Release:	2
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	%{name}-generate.sh
