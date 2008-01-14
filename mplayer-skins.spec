@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl.UTF-8):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.61
-Release:	2
+Release:	3
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	%{name}-generate.sh
@@ -136,7 +136,7 @@ Obsoletes:	mplayer-skin-WindowsMediaPlayer6
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_skindir	%{_datadir}/mplayer/Skin
+%define		_skindir	%{_datadir}/mplayer/skins
 
 %description
 Additional skins for MPlayer. Included are skins emulating look of
