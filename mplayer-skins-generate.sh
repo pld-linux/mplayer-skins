@@ -36,7 +36,7 @@ add_skin() {
 	" <<'EOF'
 %package -n mplayer-skin-@skin@
 Summary:	@skin@ skin
-Summary(pl.UTF-8):	Skórka @skin@
+Summary(pl.UTF-8):	SkÃ³rka @skin@
 Version:	@version@
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -47,7 +47,7 @@ Obsoletes:	mplayer-skins
 @skin@ skin.
 
 %description -n mplayer-skin-@skin@ -l pl.UTF-8
-Skórka @skin@.
+SkÃ³rka @skin@.
 
 EOF
 	add_spec_block PREAMBLE
