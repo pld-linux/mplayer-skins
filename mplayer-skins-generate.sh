@@ -41,7 +41,6 @@ Version:	@version@
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-@skin@
 @skin@ skin.
@@ -99,6 +98,14 @@ Source$nr:	$url$file\\
 @unpack@ | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 EOF
 	add_spec_block UNPACK
+
+	# add R to base package
+	sed > $tmpf -e "
+	s,@skin@,$skin,g
+	" <<'EOF'
+Requires:	mplayer-skin-@skin@
+EOF
+	add_spec_block REQUIRES
 
 	rm -f $tmpf
 
