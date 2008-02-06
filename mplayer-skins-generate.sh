@@ -1,6 +1,6 @@
 #!/bin/sh
 # location for mplayer skins
-url='ftp://ftp1.mplayerhq.hu/MPlayer/Skin/'
+url='ftp://ftp1.mplayerhq.hu/MPlayer/skins/'
 
 # this script must reside inSOURCES dir
 set -e
@@ -36,7 +36,7 @@ add_skin() {
 	" <<'EOF'
 %package -n mplayer-skin-@skin@
 Summary:	@skin@ skin
-Summary(pl):	Skórka @skin@
+Summary(pl.UTF-8):	Skórka @skin@
 Version:	@version@
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
@@ -46,7 +46,7 @@ Obsoletes:	mplayer-skins
 %description -n mplayer-skin-@skin@
 @skin@ skin.
 
-%description -n mplayer-skin-@skin@ -l pl
+%description -n mplayer-skin-@skin@ -l pl.UTF-8
 Skórka @skin@.
 
 EOF
