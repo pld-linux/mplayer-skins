@@ -55,7 +55,7 @@ Source23:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/DVDPlayer-1.1.tar.bz2
 Source24:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/Blue-1.7.tar.bz2
 # Source24-md5:	e4e2020d11b681aac898103b3ba723c4
 Source25:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/ultrafina-1.1.tar.bz2
-# Source25-md5:	81088ceebde6916d41a9a6d9c308aea7
+# Source25-md5:	370cc7fb8940469c944192e1da2392f5
 Source26:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/BlueHeart-1.5.tar.bz2
 # Source26-md5:	71d2554a93209313233f8f3b6a1cc6c3
 Source27:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/Abyss-1.6.tar.bz2
@@ -139,11 +139,74 @@ Source65:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/clearplayer-0.9.tar.bz2
 Source66:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/productive-1.0.tar.bz2
 # Source66-md5:	8370ad50b2548f6cefbe2848138a22b4
 URL:		http://www.mplayerhq.hu/
-Requires:	gmplayer
-Provides:	mplayer-skin
-Obsoletes:	mplayer-skin
+# NEW SKIN MARKER: REQUIRES
+Requires:	mplayer-skin-Abyss
+Requires:	mplayer-skin-AlienMind
+Requires:	mplayer-skin-Ater
+Requires:	mplayer-skin-Blue
+Requires:	mplayer-skin-Blue-small
+Requires:	mplayer-skin-BlueHeart
+Requires:	mplayer-skin-Canary
+Requires:	mplayer-skin-Corelian
+Requires:	mplayer-skin-CornerMP
+Requires:	mplayer-skin-CornerMP-aqua
+Requires:	mplayer-skin-CubicPlayer
+Requires:	mplayer-skin-Cyrus
+Requires:	mplayer-skin-DVDPlayer
+Requires:	mplayer-skin-Dushku
+Requires:	mplayer-skin-Industrial
+Requires:	mplayer-skin-JiMPlayer
+Requires:	mplayer-skin-KDE
+Requires:	mplayer-skin-Linea
+Requires:	mplayer-skin-MidnightLove
+Requires:	mplayer-skin-OSX-Brushed
+Requires:	mplayer-skin-OSX-Mod
+Requires:	mplayer-skin-OpenDoh
+Requires:	mplayer-skin-Orange
+Requires:	mplayer-skin-Plastik
+Requires:	mplayer-skin-PowerPlayer
+Requires:	mplayer-skin-QPlayer
+Requires:	mplayer-skin-QuickSilver
+Requires:	mplayer-skin-Terminator3
+Requires:	mplayer-skin-WMP6
+Requires:	mplayer-skin-XFce4
+Requires:	mplayer-skin-avifile
+Requires:	mplayer-skin-bluecurve
+Requires:	mplayer-skin-brushedGnome
+Requires:	mplayer-skin-changuito
+Requires:	mplayer-skin-clearplayer
+Requires:	mplayer-skin-disappearer
+Requires:	mplayer-skin-divxplayer
+Requires:	mplayer-skin-gnome
+Requires:	mplayer-skin-handheld
+Requires:	mplayer-skin-hayraphon
+Requires:	mplayer-skin-hwswskin
+Requires:	mplayer-skin-iTunes
+Requires:	mplayer-skin-iTunes-mini
+Requires:	mplayer-skin-krystal
+Requires:	mplayer-skin-mentalic
+Requires:	mplayer-skin-moonphase
+Requires:	mplayer-skin-mplayer_red
+Requires:	mplayer-skin-netscape4
+Requires:	mplayer-skin-neutron
+Requires:	mplayer-skin-new-age
+Requires:	mplayer-skin-phony
+Requires:	mplayer-skin-plastic
+Requires:	mplayer-skin-plastik
+Requires:	mplayer-skin-productive
+Requires:	mplayer-skin-proton
+Requires:	mplayer-skin-sessene
+Requires:	mplayer-skin-slim
+Requires:	mplayer-skin-smoothwebby
+Requires:	mplayer-skin-softgrip
+Requires:	mplayer-skin-standard
+Requires:	mplayer-skin-trium
+Requires:	mplayer-skin-tvisor
+Requires:	mplayer-skin-ultrafina
+Requires:	mplayer-skin-xanim
+Requires:	mplayer-skin-xine-lcd
+Requires:	mplayer-skin-xmmplayer
 Obsoletes:	mplayer-skin-WindowsMediaPlayer6
-# NEW SKIN MARKER: PREAMBLE
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -164,7 +227,6 @@ Version:	1.5
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-BlueHeart
 BlueHeart skin.
@@ -179,7 +241,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Cyrus
 Cyrus skin.
@@ -194,7 +255,6 @@ Version:	1.6
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-MidnightLove
 MidnightLove skin.
@@ -209,8 +269,6 @@ Version:	2.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skin-WindowsMediaPlayer6
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-WMP6
 WMP6 skin.
@@ -225,7 +283,6 @@ Version:	1.6
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-avifile
 avifile skin.
@@ -240,7 +297,6 @@ Version:	1.5
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-neutron
 neutron skin.
@@ -255,7 +311,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-phony
 phony skin.
@@ -270,7 +325,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-plastic
 plastic skin.
@@ -285,7 +339,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-proton
 proton skin.
@@ -300,7 +353,6 @@ Version:	1.6
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-xanim
 xanim skin.
@@ -315,7 +367,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-xine-lcd
 xine-lcd skin.
@@ -330,7 +381,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-mentalic
 mentalic skin.
@@ -345,7 +395,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-AlienMind
 AlienMind skin.
@@ -360,7 +409,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-hwswskin
 hwswskin skin.
@@ -375,7 +423,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-XFce4
 XFce4 skin.
@@ -390,7 +437,6 @@ Version:	2.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-OSX-Brushed
 OSX-Brushed skin.
@@ -405,7 +451,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-CornerMP
 CornerMP skin.
@@ -420,7 +465,6 @@ Version:	1.4
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-CornerMP-aqua
 CornerMP-aqua skin.
@@ -434,7 +478,6 @@ Summary(pl.UTF-8):	Skórka Plastik
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Plastik
 Plastik skin.
@@ -449,7 +492,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-new-age
 new-age skin.
@@ -464,7 +506,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Terminator3
 Terminator3 skin.
@@ -479,7 +520,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-OSX-Mod
 OSX-Mod skin.
@@ -494,7 +534,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Industrial
 Industrial skin.
@@ -509,7 +548,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-DVDPlayer
 DVDPlayer skin.
@@ -524,7 +562,6 @@ Version:	1.7
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Blue
 Blue skin (new default MPlayer skin).
@@ -539,7 +576,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-ultrafina
 ultrafina skin (based on the XMMS ultrafina skin).
@@ -554,7 +590,6 @@ Version:	1.6
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Abyss
 Abyss skin.
@@ -569,7 +604,6 @@ Version:	1.4
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Blue-small
 Blue-small skin.
@@ -584,7 +618,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Canary
 Canary skin.
@@ -599,7 +632,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Corelian
 Corelian skin.
@@ -614,7 +646,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-CubicPlayer
 CubicPlayer skin.
@@ -629,7 +660,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Dushku
 Dushku skin.
@@ -644,7 +674,6 @@ Version:	1.4
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-JiMPlayer
 JiMPlayer skin.
@@ -659,7 +688,6 @@ Version:	0.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-KDE
 KDE skin.
@@ -674,7 +702,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-OpenDoh
 OpenDoh skin.
@@ -689,7 +716,6 @@ Version:	1.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Orange
 Orange skin.
@@ -704,7 +730,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-PowerPlayer
 PowerPlayer skin.
@@ -719,7 +744,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-QPlayer
 QPlayer skin.
@@ -734,7 +758,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-QuickSilver
 QuickSilver skin.
@@ -749,7 +772,6 @@ Version:	1.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-bluecurve
 bluecurve skin.
@@ -764,7 +786,6 @@ Version:	0.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-changuito
 changuito skin.
@@ -779,7 +800,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-disappearer
 disappearer skin.
@@ -794,7 +814,6 @@ Version:	1.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-divxplayer
 divxplayer skin.
@@ -809,7 +828,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-gnome
 gnome skin.
@@ -824,7 +842,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-handheld
 handheld skin.
@@ -839,7 +856,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-hayraphon
 hayraphon skin.
@@ -854,7 +870,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-iTunes
 iTunes skin.
@@ -869,7 +884,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-iTunes-mini
 iTunes-mini skin.
@@ -884,7 +898,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-krystal
 krystal skin.
@@ -899,7 +912,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-moonphase
 moonphase skin.
@@ -914,7 +926,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-mplayer_red
 mplayer_red skin.
@@ -929,7 +940,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-netscape4
 netscape4 skin.
@@ -944,7 +954,6 @@ Version:	2.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-plastik
 plastik skin.
@@ -959,7 +968,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-sessene
 sessene skin.
@@ -974,7 +982,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-slim
 slim skin.
@@ -989,7 +996,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-smoothwebby
 smoothwebby skin.
@@ -1004,7 +1010,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-softgrip
 softgrip skin.
@@ -1019,7 +1024,6 @@ Version:	1.9
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-standard
 standard skin.
@@ -1034,7 +1038,6 @@ Version:	1.3
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-trium
 trium skin.
@@ -1049,7 +1052,6 @@ Version:	1.1
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-tvisor
 tvisor skin.
@@ -1064,7 +1066,6 @@ Version:	1.5
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-xmmplayer
 xmmplayer skin.
@@ -1079,7 +1080,6 @@ Version:	1.2
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Ater
 Ater skin.
@@ -1094,7 +1094,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-Linea
 Linea skin.
@@ -1109,7 +1108,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-brushedGnome
 brushedGnome skin.
@@ -1124,7 +1122,6 @@ Version:	0.9
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-clearplayer
 clearplayer skin.
@@ -1139,7 +1136,6 @@ Version:	1.0
 Group:		X11/Applications/Multimedia
 Requires:	gmplayer
 Provides:	mplayer-skin
-Obsoletes:	mplayer-skins
 
 %description -n mplayer-skin-productive
 productive skin.
@@ -1563,7 +1559,6 @@ fi
 # NEW SKIN MARKER: POST
 %files
 %defattr(644,root,root,755)
-%{_skindir}/*
 
 %files -n mplayer-skin-BlueHeart
 %defattr(644,root,root,755)
