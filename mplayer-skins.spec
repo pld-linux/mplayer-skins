@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl.UTF-8):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.61
-Release:	20080206.1
+Release:	20090302
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	%{name}-generate.sh
@@ -58,8 +58,8 @@ Source25:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/ultrafina-1.1.tar.bz2
 # Source25-md5:	370cc7fb8940469c944192e1da2392f5
 Source26:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/BlueHeart-1.5.tar.bz2
 # Source26-md5:	71d2554a93209313233f8f3b6a1cc6c3
-Source27:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/Abyss-1.6.tar.bz2
-# Source27-md5:	6c376ebcc691ebe8c9032f78bce7f814
+Source27:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/Abyss-1.7.tar.bz2
+# Source27-md5:	550c32dff975a2acd7e34f12d04ed493
 Source28:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/Blue-small-1.4.tar.bz2
 # Source28-md5:	d23eb53e49a519aaab7eaa20942eb905
 Source29:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/Canary-1.2.tar.bz2
@@ -138,6 +138,8 @@ Source65:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/clearplayer-0.9.tar.bz2
 # Source65-md5:	df5fd8e51fbc077ddc7b74d83afe1452
 Source66:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/productive-1.0.tar.bz2
 # Source66-md5:	8370ad50b2548f6cefbe2848138a22b4
+Source67:	ftp://ftp1.mplayerhq.hu/MPlayer/skins/ICY-1.0.tar.bz2
+# Source67-md5:	db62b2fa875e321df9b13707a21cfcd7
 URL:		http://www.mplayerhq.hu/
 # NEW SKIN MARKER: REQUIRES
 Requires:	mplayer-skin-Abyss
@@ -154,6 +156,7 @@ Requires:	mplayer-skin-CubicPlayer
 Requires:	mplayer-skin-Cyrus
 Requires:	mplayer-skin-DVDPlayer
 Requires:	mplayer-skin-Dushku
+Requires:	mplayer-skin-ICY
 Requires:	mplayer-skin-Industrial
 Requires:	mplayer-skin-JiMPlayer
 Requires:	mplayer-skin-KDE
@@ -586,7 +589,7 @@ Skórka ultrafina (skórka wzorowana na skórce ultrafina do XMMS).
 %package -n mplayer-skin-Abyss
 Summary:	Abyss skin
 Summary(pl.UTF-8):	Skórka Abyss
-Version:	1.6
+Version:	1.7
 Group:		X11/Applications/Multimedia
 Requires:	mplayer-common
 Provides:	mplayer-skin
@@ -666,6 +669,20 @@ Dushku skin.
 
 %description -n mplayer-skin-Dushku -l pl.UTF-8
 Skórka Dushku.
+
+%package -n mplayer-skin-ICY
+Summary:	ICY skin
+Summary(pl.UTF-8):	Skórka ICY
+Version:	1.0
+Group:		X11/Applications/Multimedia
+Requires:	mplayer-common
+Provides:	mplayer-skin
+
+%description -n mplayer-skin-ICY
+ICY skin.
+
+%description -n mplayer-skin-ICY -l pl.UTF-8
+Skórka ICY.
 
 %package -n mplayer-skin-JiMPlayer
 Summary:	JiMPlayer skin
@@ -1216,6 +1233,7 @@ bzip2 -dc %{SOURCE63} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE64} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE65} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 bzip2 -dc %{SOURCE66} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
+bzip2 -dc %{SOURCE67} | tar -x -C $RPM_BUILD_ROOT%{_skindir}
 # NEW SKIN MARKER: UNPACK
 
 %clean
@@ -1384,6 +1402,11 @@ fi
 %post -n mplayer-skin-Dushku
 if [ "$1" = 1 ]; then
 	ln -snf Dushku %{_skindir}/default
+fi
+
+%post -n mplayer-skin-ICY
+if [ "$1" = 1 ]; then
+	ln -snf ICY %{_skindir}/default
 fi
 
 %post -n mplayer-skin-JiMPlayer
@@ -1823,5 +1846,9 @@ fi
 %files -n mplayer-skin-productive
 %defattr(644,root,root,755)
 %{_skindir}/productive
+
+%files -n mplayer-skin-ICY
+%defattr(644,root,root,755)
+%{_skindir}/ICY
 
 # NEW SKIN MARKER: FILES
