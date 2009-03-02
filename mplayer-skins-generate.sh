@@ -39,7 +39,7 @@ Summary:	@skin@ skin
 Summary(pl.UTF-8):	Skórka @skin@
 Version:	@version@
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-@skin@
