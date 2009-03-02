@@ -2,7 +2,7 @@ Summary:	MPlayer - skins
 Summary(pl.UTF-8):	MPlayer - skóry
 Name:		mplayer-skins
 Version:	0.61
-Release:	20080206
+Release:	20080206.1
 License:	distributable
 Group:		X11/Applications/Multimedia
 Source0:	%{name}-generate.sh
@@ -225,7 +225,7 @@ Summary:	BlueHeart skin
 Summary(pl.UTF-8):	Skórka BlueHeart
 Version:	1.5
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-BlueHeart
@@ -239,7 +239,7 @@ Summary:	Cyrus skin
 Summary(pl.UTF-8):	Skórka Cyrus
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Cyrus
@@ -253,7 +253,7 @@ Summary:	MidnightLove skin
 Summary(pl.UTF-8):	Skórka MidnightLove
 Version:	1.6
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-MidnightLove
@@ -267,7 +267,7 @@ Summary:	WMP6 skin
 Summary(pl.UTF-8):	Skórka WMP6
 Version:	2.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-WMP6
@@ -281,7 +281,7 @@ Summary:	avifile skin
 Summary(pl.UTF-8):	Skórka avifile
 Version:	1.6
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-avifile
@@ -295,7 +295,7 @@ Summary:	neutron skin
 Summary(pl.UTF-8):	Skórka neutron
 Version:	1.5
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-neutron
@@ -309,7 +309,7 @@ Summary:	phony skin
 Summary(pl.UTF-8):	Skórka phony
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-phony
@@ -323,7 +323,7 @@ Summary:	plastic skin
 Summary(pl.UTF-8):	Skórka plastic
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-plastic
@@ -337,7 +337,7 @@ Summary:	proton skin
 Summary(pl.UTF-8):	Skórka proton
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-proton
@@ -351,7 +351,7 @@ Summary:	xanim skin
 Summary(pl.UTF-8):	Skórka xanim
 Version:	1.6
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-xanim
@@ -365,7 +365,7 @@ Summary:	xine-lcd skin
 Summary(pl.UTF-8):	Skórka xine-lcd
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-xine-lcd
@@ -379,7 +379,7 @@ Summary:	mentalic skin
 Summary(pl.UTF-8):	Skórka mentalic
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-mentalic
@@ -393,7 +393,7 @@ Summary:	AlienMind skin
 Summary(pl.UTF-8):	Skórka AlienMind
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-AlienMind
@@ -407,7 +407,7 @@ Summary:	hwswskin skin
 Summary(pl.UTF-8):	Skórka hwswskin
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-hwswskin
@@ -421,7 +421,7 @@ Summary:	XFce4 skin
 Summary(pl.UTF-8):	Skórka XFce4
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-XFce4
@@ -435,7 +435,7 @@ Summary:	OSX-Brushed skin
 Summary(pl.UTF-8):	Skórka OSX-Brushed
 Version:	2.3
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-OSX-Brushed
@@ -449,7 +449,7 @@ Summary:	CornerMP skin
 Summary(pl.UTF-8):	Skórka CornerMP
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-CornerMP
@@ -463,7 +463,7 @@ Summary:	CornerMP-aqua skin
 Summary(pl.UTF-8):	Skórka CornerMP-aqua
 Version:	1.4
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-CornerMP-aqua
@@ -476,7 +476,7 @@ Skórka CornerMP-aqua.
 Summary:	Plastik skin
 Summary(pl.UTF-8):	Skórka Plastik
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Plastik
@@ -490,7 +490,7 @@ Summary:	new-age skin
 Summary(pl.UTF-8):	Skórka new-age
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-new-age
@@ -504,7 +504,7 @@ Summary:	Terminator3 skin
 Summary(pl.UTF-8):	Skórka Terminator3
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Terminator3
@@ -518,7 +518,7 @@ Summary:	OSX-Mod skin
 Summary(pl.UTF-8):	Skórka OSX-Mod
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-OSX-Mod
@@ -532,7 +532,7 @@ Summary:	Industrial skin
 Summary(pl.UTF-8):	Skórka Industrial
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Industrial
@@ -546,7 +546,7 @@ Summary:	DVDPlayer skin
 Summary(pl.UTF-8):	Skórka DVDPlayer
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-DVDPlayer
@@ -560,7 +560,7 @@ Summary:	Blue skin
 Summary(pl.UTF-8):	Skórka Blue
 Version:	1.7
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Blue
@@ -574,7 +574,7 @@ Summary:	ultrafina skin
 Summary(pl.UTF-8):	Skórka ultrafina
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-ultrafina
@@ -588,7 +588,7 @@ Summary:	Abyss skin
 Summary(pl.UTF-8):	Skórka Abyss
 Version:	1.6
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Abyss
@@ -602,7 +602,7 @@ Summary:	Blue-small skin
 Summary(pl.UTF-8):	Skórka Blue-small
 Version:	1.4
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Blue-small
@@ -616,7 +616,7 @@ Summary:	Canary skin
 Summary(pl.UTF-8):	Skórka Canary
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Canary
@@ -630,7 +630,7 @@ Summary:	Corelian skin
 Summary(pl.UTF-8):	Skórka Corelian
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Corelian
@@ -644,7 +644,7 @@ Summary:	CubicPlayer skin
 Summary(pl.UTF-8):	Skórka CubicPlayer
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-CubicPlayer
@@ -658,7 +658,7 @@ Summary:	Dushku skin
 Summary(pl.UTF-8):	Skórka Dushku
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Dushku
@@ -672,7 +672,7 @@ Summary:	JiMPlayer skin
 Summary(pl.UTF-8):	Skórka JiMPlayer
 Version:	1.4
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-JiMPlayer
@@ -686,7 +686,7 @@ Summary:	KDE skin
 Summary(pl.UTF-8):	Skórka KDE
 Version:	0.3
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-KDE
@@ -700,7 +700,7 @@ Summary:	OpenDoh skin
 Summary(pl.UTF-8):	Skórka OpenDoh
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-OpenDoh
@@ -714,7 +714,7 @@ Summary:	Orange skin
 Summary(pl.UTF-8):	Skórka Orange
 Version:	1.3
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Orange
@@ -728,7 +728,7 @@ Summary:	PowerPlayer skin
 Summary(pl.UTF-8):	Skórka PowerPlayer
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-PowerPlayer
@@ -742,7 +742,7 @@ Summary:	QPlayer skin
 Summary(pl.UTF-8):	Skórka QPlayer
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-QPlayer
@@ -756,7 +756,7 @@ Summary:	QuickSilver skin
 Summary(pl.UTF-8):	Skórka QuickSilver
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-QuickSilver
@@ -770,7 +770,7 @@ Summary:	bluecurve skin
 Summary(pl.UTF-8):	Skórka bluecurve
 Version:	1.3
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-bluecurve
@@ -784,7 +784,7 @@ Summary:	changuito skin
 Summary(pl.UTF-8):	Skórka changuito
 Version:	0.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-changuito
@@ -798,7 +798,7 @@ Summary:	disappearer skin
 Summary(pl.UTF-8):	Skórka disappearer
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-disappearer
@@ -812,7 +812,7 @@ Summary:	divxplayer skin
 Summary(pl.UTF-8):	Skórka divxplayer
 Version:	1.3
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-divxplayer
@@ -826,7 +826,7 @@ Summary:	gnome skin
 Summary(pl.UTF-8):	Skórka gnome
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-gnome
@@ -840,7 +840,7 @@ Summary:	handheld skin
 Summary(pl.UTF-8):	Skórka handheld
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-handheld
@@ -854,7 +854,7 @@ Summary:	hayraphon skin
 Summary(pl.UTF-8):	Skórka hayraphon
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-hayraphon
@@ -868,7 +868,7 @@ Summary:	iTunes skin
 Summary(pl.UTF-8):	Skórka iTunes
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-iTunes
@@ -882,7 +882,7 @@ Summary:	iTunes-mini skin
 Summary(pl.UTF-8):	Skórka iTunes-mini
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-iTunes-mini
@@ -896,7 +896,7 @@ Summary:	krystal skin
 Summary(pl.UTF-8):	Skórka krystal
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-krystal
@@ -910,7 +910,7 @@ Summary:	moonphase skin
 Summary(pl.UTF-8):	Skórka moonphase
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-moonphase
@@ -924,7 +924,7 @@ Summary:	mplayer_red skin
 Summary(pl.UTF-8):	Skórka mplayer_red
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-mplayer_red
@@ -938,7 +938,7 @@ Summary:	netscape4 skin
 Summary(pl.UTF-8):	Skórka netscape4
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-netscape4
@@ -952,7 +952,7 @@ Summary:	plastik skin
 Summary(pl.UTF-8):	Skórka plastik
 Version:	2.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-plastik
@@ -966,7 +966,7 @@ Summary:	sessene skin
 Summary(pl.UTF-8):	Skórka sessene
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-sessene
@@ -980,7 +980,7 @@ Summary:	slim skin
 Summary(pl.UTF-8):	Skórka slim
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-slim
@@ -994,7 +994,7 @@ Summary:	smoothwebby skin
 Summary(pl.UTF-8):	Skórka smoothwebby
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-smoothwebby
@@ -1008,7 +1008,7 @@ Summary:	softgrip skin
 Summary(pl.UTF-8):	Skórka softgrip
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-softgrip
@@ -1022,7 +1022,7 @@ Summary:	standard skin
 Summary(pl.UTF-8):	Skórka standard
 Version:	1.9
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-standard
@@ -1036,7 +1036,7 @@ Summary:	trium skin
 Summary(pl.UTF-8):	Skórka trium
 Version:	1.3
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-trium
@@ -1050,7 +1050,7 @@ Summary:	tvisor skin
 Summary(pl.UTF-8):	Skórka tvisor
 Version:	1.1
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-tvisor
@@ -1064,7 +1064,7 @@ Summary:	xmmplayer skin
 Summary(pl.UTF-8):	Skórka xmmplayer
 Version:	1.5
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-xmmplayer
@@ -1078,7 +1078,7 @@ Summary:	Ater skin
 Summary(pl.UTF-8):	Skórka Ater
 Version:	1.2
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Ater
@@ -1092,7 +1092,7 @@ Summary:	Linea skin
 Summary(pl.UTF-8):	Skórka Linea
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-Linea
@@ -1106,7 +1106,7 @@ Summary:	brushedGnome skin
 Summary(pl.UTF-8):	Skórka brushedGnome
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-brushedGnome
@@ -1120,7 +1120,7 @@ Summary:	clearplayer skin
 Summary(pl.UTF-8):	Skórka clearplayer
 Version:	0.9
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-clearplayer
@@ -1134,7 +1134,7 @@ Summary:	productive skin
 Summary(pl.UTF-8):	Skórka productive
 Version:	1.0
 Group:		X11/Applications/Multimedia
-Requires:	gmplayer
+Requires:	mplayer-common
 Provides:	mplayer-skin
 
 %description -n mplayer-skin-productive
